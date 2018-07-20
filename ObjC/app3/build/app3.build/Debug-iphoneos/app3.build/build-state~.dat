@@ -1,0 +1,231 @@
+Tapp3
+v7
+r1
+cCheck dependencies
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/Classes/app3AppDelegate.h
+c0000000051E3EC3A00000000000001C3
+t1373891642
+s451
+i<UIKit/UIKit.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/Classes/app3AppDelegate.m
+c0000000051E3EC3A0000000000000251
+t1373891642
+s593
+i"app3AppDelegate.h"
+i"app3ViewController.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/Classes/app3ViewController.h
+c0000000051E3FA5E0000000000000125
+t1373895262
+s293
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/Classes/app3ViewController.m
+c0000000051E3FC980000000000000787
+t1373895832
+s1927
+i"app3ViewController.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/MainWindow.xib
+c0000000051E3EC3A000000000000242D
+t1373891642
+s9261
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/app3ViewController.xib
+c0000000051E3FB1A00000000000032D2
+t1373895450
+s13010
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/app3_Prefix.pch
+c0000000051E3EC3A00000000000000B1
+t1373891642
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug-iphoneos/app3.app
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug-iphoneos/app3.app.dSYM
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug-iphoneos/app3.app/Info.plist
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug-iphoneos/app3.app/MainWindow.nib
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug-iphoneos/app3.app/PkgInfo
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug-iphoneos/app3.app/ResourceRules.plist
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug-iphoneos/app3.app/app3
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug-iphoneos/app3.app/app3ViewController.nib
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv6/app3
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv6/app3.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv6/app3AppDelegate.o
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv6/app3ViewController.o
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv7/app3
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv7/app3.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv7/app3AppDelegate.o
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv7/app3ViewController.o
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/main.m
+c0000000051E3EC3A000000000000015C
+t1373891642
+s348
+i<UIKit/UIKit.h>
+
+N/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/app3_Prefix-cphgslxuwtmylsfhpvlagihcpaqc/app3_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/app3_Prefix-damiwtmfydxgjnfuhimlawqrlhdu/app3_Prefix.pch.gch
+t2
+s0
+
+Napp3-Info.plist
+c0000000051E3EC3A000000000000038D
+t1373891642
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies396957623#396957623#0(130"[BEROR]Code Signing Identity 'iPhone Developer' does not match any valid, non-expired, code-signing certificate in your keychain.1(4@122"Code Signing Identity 'iPhone Developer' does not match any valid, non-expired, code-signing certificate in your keychain.396957623#18446744073709551615#0#0(1@0"0(0#1#0"8610495744#0"0#
+
+CCompileC build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv6/app3AppDelegate.o "/Volumes/KAI HARTZ/XCode Projekte/app3/Classes/app3AppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv6/app3ViewController.o "/Volumes/KAI HARTZ/XCode Projekte/app3/Classes/app3ViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv6/main.o "/Volumes/KAI HARTZ/XCode Projekte/app3/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv7/app3AppDelegate.o "/Volumes/KAI HARTZ/XCode Projekte/app3/Classes/app3AppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv7/app3ViewController.o "/Volumes/KAI HARTZ/XCode Projekte/app3/Classes/app3ViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv7/main.o "/Volumes/KAI HARTZ/XCode Projekte/app3/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/app3/MainWindow.xib"
+r0
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/app3/app3ViewController.xib"
+r0
+
+CCpResource build/Debug-iphoneos/app3.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary "/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug-iphoneos/app3.app/app3" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug-iphoneos/app3.app.dSYM" "/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug-iphoneos/app3.app/app3"
+r0
+
+CLd "/Volumes/KAI HARTZ/XCode Projekte/app3/build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv6/app3" normal armv6
+r0
+
+CLd "/Volumes/KAI HARTZ/XCode Projekte/app3/build/app3.build/Debug-iphoneos/app3.build/Objects-normal/armv7/app3" normal armv7
+r0
+
+CProcessInfoPlistFile "/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug-iphoneos/app3.app/Info.plist" app3-Info.plist
+r0
+
+CProcessPCH /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/app3_Prefix-cphgslxuwtmylsfhpvlagihcpaqc/app3_Prefix.pch.gch app3_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/app3_Prefix-damiwtmfydxgjnfuhimlawqrlhdu/app3_Prefix.pch.gch app3_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug-iphoneos/app3.app"
+r0
+

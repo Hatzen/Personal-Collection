@@ -1,0 +1,56 @@
+TInternetApp
+v7
+r1
+cCheck dependencies
+
+N/Volumes/KAI HARTZ/XCode Projekte/InternetApp/InternetAppViewController.xib
+c0000000051E66CC80000000000002D86
+t1374055624
+s11654
+
+N/Volumes/KAI HARTZ/XCode Projekte/InternetApp/MainWindow.xib
+c0000000051E653AE000000000000247A
+t1374049198
+s9338
+
+N/Volumes/KAI HARTZ/XCode Projekte/InternetApp/build/Debug/InternetApp.app
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/InternetApp/build/Debug/InternetApp.app/Contents/Info.plist
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/InternetApp/build/Debug/InternetApp.app/Contents/PkgInfo
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/InternetApp/build/Debug/InternetApp.app/Contents/Resources/InternetAppViewController.nib
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/InternetApp/build/Debug/InternetApp.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+NInternetApp-Info.plist
+c0000000051E653AE000000000000038D
+t1374049198
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies396957142#396957144#0(68"[BEROR]error: There is no SDK with the name or path 'iphoneos3.1.3'1(4@60"error: There is no SDK with the name or path 'iphoneos3.1.3'396957144#18446744073709551615#0#0(1@0"0(0#1#0"8615569952#0"0#
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/InternetApp/InternetAppViewController.xib"
+r0
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/InternetApp/MainWindow.xib"
+r0
+
+CProcessInfoPlistFile "/Volumes/KAI HARTZ/XCode Projekte/InternetApp/build/Debug/InternetApp.app/Contents/Info.plist" InternetApp-Info.plist
+r0
+
+CTouch "/Volumes/KAI HARTZ/XCode Projekte/InternetApp/build/Debug/InternetApp.app"
+r0
+

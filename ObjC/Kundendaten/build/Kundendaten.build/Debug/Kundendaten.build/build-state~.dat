@@ -1,0 +1,92 @@
+TKundendaten
+v7
+r1
+cCheck dependencies
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/../../Downloads/shoppinglist.sqlite3
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/KundendatenViewController.xib
+c0000000051F77EEE000000000000370D
+t1375174382
+s14093
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/MainWindow.xib
+c0000000051F60AAA000000000000247A
+t1375079082
+s9338
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug/Kundendaten.app
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug/Kundendaten.app/Contents/Info.plist
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug/Kundendaten.app/Contents/PkgInfo
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug/Kundendaten.app/Contents/Resources/KundendatenViewController.nib
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug/Kundendaten.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug/Kundendaten.app/Contents/Resources/gradient.png
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug/Kundendaten.app/Contents/Resources/shoppinglist.sqlite3
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug/Kundendaten.app/Contents/Resources/tableCell.nib
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/gradient.png
+c0000000051F7BB9A0000000000000080
+t1375189914
+s128
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/tableCell.xib
+c0000000051F661BE000000000000326B
+t1375101374
+s12907
+
+NKundendaten-Info.plist
+c0000000051F60AAA000000000000038D
+t1375079082
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies396955308#396955308#0(68"[BEROR]error: There is no SDK with the name or path 'iphoneos3.1.3'1(4@60"error: There is no SDK with the name or path 'iphoneos3.1.3'396955308#18446744073709551615#0#0(1@0"0(0#1#0"8607487712#0"0#
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/KundendatenViewController.xib"
+r0
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/MainWindow.xib"
+r0
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/tableCell.xib"
+r0
+
+CCpResource build/Debug/Kundendaten.app/Contents/Resources/gradient.png gradient.png
+r0
+
+CCpResource build/Debug/Kundendaten.app/Contents/Resources/shoppinglist.sqlite3 ../../Downloads/shoppinglist.sqlite3
+r0
+
+CProcessInfoPlistFile "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug/Kundendaten.app/Contents/Info.plist" Kundendaten-Info.plist
+r0
+
+CTouch "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug/Kundendaten.app"
+r0
+

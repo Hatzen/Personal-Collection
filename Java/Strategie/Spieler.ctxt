@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=ip\ daten
+comment0.target=Spieler(java.lang.String,\ SpielerDaten)
+comment1.params=
+comment1.target=void\ run()
+comment2.params=obj
+comment2.target=byte[]\ toByteArray(java.lang.Object)
+comment3.params=bytes
+comment3.target=java.lang.Object\ toObject(byte[])
+comment4.params=
+comment4.target=void\ stop()
+numComments=5

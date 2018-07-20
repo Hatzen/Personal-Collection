@@ -1,0 +1,3 @@
+/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/bildVorschau.m: In function '-[bildVorschau setValues::]':
+/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/bildVorschau.m:13: warning: incompatible Objective-C types initializing 'struct NSString *', expected 'struct UIImage *'
+/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/bildVorschau.m:13: warning: incompatible Objective-C types initializing 'struct UIImage *', expected 'struct NSString *'

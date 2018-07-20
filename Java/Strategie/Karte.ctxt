@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=kind\ size\ startPoint\ resource\ barrier
+comment0.target=Karte(int,\ java.awt.Dimension,\ java.util.ArrayList,\ java.util.ArrayList,\ java.util.ArrayList)
+comment1.params=
+comment1.target=int\ getKind()
+comment2.params=
+comment2.target=java.awt.Dimension\ getSize()
+comment3.params=
+comment3.target=java.util.ArrayList\ getStartPoint()
+comment4.params=
+comment4.target=java.util.ArrayList\ getResource()
+comment5.params=
+comment5.target=java.util.ArrayList\ getBarrier()
+numComments=6

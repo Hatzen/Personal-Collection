@@ -1,0 +1,359 @@
+TKundendaten
+v7
+r0
+t396956395.392167
+cCheck dependencies
+cProcessInfoPlistFile "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/Info.plist" Kundendaten-Info.plist
+cCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/MainWindow.xib"
+cCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/KundendatenViewController.xib"
+cCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/tableCell.xib"
+cCpResource build/Debug-iphonesimulator/Kundendaten.app/gradient.png gradient.png
+cCpResource build/Debug-iphonesimulator/Kundendaten.app/shoppinglist.sqlite3 ../../Downloads/shoppinglist.sqlite3
+cProcessPCH /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kundendaten_Prefix-grxqwnqsfkejlcfpvnylwakfxjqw/Kundendaten_Prefix.pch.gch Kundendaten_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/main.o "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/KundendatenAppDelegate.o "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/KundendatenAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/KundendatenViewController.o "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/KundendatenViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/tableCell.o "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/tableCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/dbConnect.o "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/dbConnect.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/Kundendaten" normal i386
+cGenerateDSYMFile "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app.dSYM" "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/Kundendaten"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D2DD00000000000000C4
+t1297404637
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sqlite3.h
+c000000004D54CB5C0000000000045296
+t1297402716
+s283286
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/libsqlite3.0.dylib
+c000000004D54CB720000000000099500
+t1297402738
+s627968
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/../../Downloads/shoppinglist.sqlite3
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/KundendatenAppDelegate.h
+c0000000051F60AAA00000000000001ED
+t1375079082
+s493
+i<UIKit/UIKit.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/KundendatenAppDelegate.m
+c0000000051F60AAA0000000000000274
+t1375079082
+s628
+i"KundendatenAppDelegate.h"
+i"KundendatenViewController.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/KundendatenViewController.h
+c0000000051F8C0B00000000000000174
+t1375256752
+s372
+i<UIKit/UIKit.h>
+i"dbConnect.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/KundendatenViewController.m
+c0000000051F8CAC60000000000001558
+t1375259334
+s5464
+i"KundendatenViewController.h"
+i"tableCell.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/dbConnect.h
+c0000000051F8BBB800000000000000EA
+t1375255480
+s234
+i<Foundation/Foundation.h>
+i"sqlite3.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/dbConnect.m
+c0000000051F8CAC6000000000000086D
+t1375259334
+s2157
+i"dbConnect.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/tableCell.h
+c0000000051F761A4000000000000004B
+t1375166884
+s75
+i<UIKit/UIKit.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/tableCell.m
+c0000000051F761A80000000000000037
+t1375166888
+s55
+i"tableCell.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/KundendatenViewController.xib
+c0000000051F77EEE000000000000370D
+t1375174382
+s14093
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Kundendaten_Prefix.pch
+c0000000051F60AAA00000000000000BF
+t1375079082
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/MainWindow.xib
+c0000000051F60AAA000000000000247A
+t1375079082
+s9338
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app
+t1375261126
+s4096
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app.dSYM
+t1375263594
+s4096
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/Info.plist
+t1375081126
+s552
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/Kundendaten
+t1375263590
+s29436
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/KundendatenViewController.nib
+t1375174388
+s2770
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/MainWindow.nib
+t1375081126
+s1503
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/PkgInfo
+t1375081126
+s8
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/gradient.png
+t1375193022
+s128
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/shoppinglist.sqlite3
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/tableCell.nib
+t1375101374
+s2978
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/Kundendaten.LinkFileList
+c0000000051F8DB5E00000000000002DE
+t1375263582
+s734
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/KundendatenAppDelegate.o
+t1375263586
+s49172
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/KundendatenViewController.o
+t1375263586
+s61608
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/dbConnect.o
+t1375263586
+s13780
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/main.o
+t1375263584
+s6324
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/tableCell.o
+t1375263586
+s5128
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/gradient.png
+c0000000051F7BB9A0000000000000080
+t1375189914
+s128
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/main.m
+c0000000051F60AAA0000000000000163
+t1375079082
+s355
+i<UIKit/UIKit.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/tableCell.xib
+c0000000051F661BE000000000000326B
+t1375101374
+s12907
+
+N/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kundendaten_Prefix-grxqwnqsfkejlcfpvnylwakfxjqw/Kundendaten_Prefix.pch.gch
+t1375263585
+s15814064
+
+NKundendaten-Info.plist
+c0000000051F60AAA000000000000038D
+t1375079082
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies396956380#396956383#0(0"0(0#1#0"8608752576#0"0#
+
+CCompileC build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/KundendatenAppDelegate.o "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/KundendatenAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s396956385.962769
+e396956386.157930
+r1
+xCompileC
+xbuild/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/KundendatenAppDelegate.o
+x/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/KundendatenAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/KundendatenAppDelegate.m396956385#396956386#0(0"0(0#0#78"/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/KundendatenAppDelegate.m8607461728#2137"    cd "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kundendaten_Prefix-grxqwnqsfkejlcfpvnylwakfxjqw/Kundendaten_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/KundendatenAppDelegate.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/KundendatenAppDelegate.o"0#
+
+CCompileC build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/KundendatenViewController.o "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/KundendatenViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s396956386.158017
+e396956386.626239
+r1
+xCompileC
+xbuild/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/KundendatenViewController.o
+x/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/KundendatenViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/KundendatenViewController.m396956386#396956386#0(0"0(0#0#81"/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/KundendatenViewController.m8607320800#2143"    cd "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kundendaten_Prefix-grxqwnqsfkejlcfpvnylwakfxjqw/Kundendaten_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/KundendatenViewController.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/KundendatenViewController.o"0#
+
+CCompileC build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/dbConnect.o "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/dbConnect.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s396956386.904300
+e396956387.432692
+r1
+xCompileC
+xbuild/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/dbConnect.o
+x/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/dbConnect.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/dbConnect.m396956386#396956387#0(0"0(0#0#65"/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/dbConnect.m8602323328#2111"    cd "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kundendaten_Prefix-grxqwnqsfkejlcfpvnylwakfxjqw/Kundendaten_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/dbConnect.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/dbConnect.o"0#
+
+CCompileC build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/main.o "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s396956385.750696
+e396956385.962679
+r1
+xCompileC
+xbuild/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/main.o
+x/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Volumes/KAI HARTZ/XCode Projekte/Kundendaten/main.m396956385#396956385#0(0"0(0#0#52"/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/main.m8610100288#2093"    cd "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kundendaten_Prefix-grxqwnqsfkejlcfpvnylwakfxjqw/Kundendaten_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/main.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/tableCell.o "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/tableCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s396956386.626327
+e396956386.904131
+r1
+xCompileC
+xbuild/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/tableCell.o
+x/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/tableCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/tableCell.m396956386#396956386#0(0"0(0#0#65"/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/tableCell.m8608945824#2111"    cd "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kundendaten_Prefix-grxqwnqsfkejlcfpvnylwakfxjqw/Kundendaten_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Classes/tableCell.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/tableCell.o"0#
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/KundendatenViewController.xib"
+r0
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/MainWindow.xib"
+r0
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/tableCell.xib"
+r0
+
+CCpResource build/Debug-iphonesimulator/Kundendaten.app/gradient.png gradient.png
+r0
+
+CCpResource build/Debug-iphonesimulator/Kundendaten.app/shoppinglist.sqlite3 ../../Downloads/shoppinglist.sqlite3
+s396956383.829267
+e396956383.881614
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/Kundendaten.app/shoppinglist.sqlite3
+x../../Downloads/shoppinglist.sqlite3
+o/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/../../Downloads: No such file or directory
+lSLF07#2@41"Copy ../../Downloads/shoppinglist.sqlite3396956383#396956383#0(197"/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/../../Downloads: No such file or directoryCommand /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 11(4@107"Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 1396956383#18446744073709551615#0#0(1@0"0(0#0#82"/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/../../Downloads/shoppinglist.sqlite38607341856#525"    cd "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/../../Downloads/shoppinglist.sqlite3" "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app"1#
+
+CGenerateDSYMFile "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app.dSYM" "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/Kundendaten"
+s396956391.421327
+e396956395.392008
+r1
+xGenerateDSYMFile
+x/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app.dSYM
+x/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/Kundendaten
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/Kundendaten.app.dSYM build/Debug-iphonesimulator/Kundendaten.app/Kundendaten396956391#396956395#0(0"0(0#0#101"/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/Kundendaten8609314624#422"    cd "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/Kundendaten" -o "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app.dSYM"0#
+
+CLd "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/Kundendaten" normal i386
+s396956387.432860
+e396956391.421137
+r1
+xLd
+x/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/Kundendaten
+xnormal
+xi386
+lSLF07#2@106"Link /Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/Kundendaten396956387#396956391#0(0"0(0#0#0"8610243168#977"    cd "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk "-L/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator" "-F/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator" -filelist "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Objects-normal/i386/Kundendaten.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -o "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/Kundendaten"0#
+
+CProcessInfoPlistFile "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app/Info.plist" Kundendaten-Info.plist
+r0
+
+CProcessPCH /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kundendaten_Prefix-grxqwnqsfkejlcfpvnylwakfxjqw/Kundendaten_Prefix.pch.gch Kundendaten_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s396956383.881760
+e396956385.750516
+r1
+xProcessPCH
+x/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kundendaten_Prefix-grxqwnqsfkejlcfpvnylwakfxjqw/Kundendaten_Prefix.pch.gch
+xKundendaten_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Kundendaten_Prefix.pch396956383#396956385#0(0"0(0#0#68"/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Kundendaten_Prefix.pch8599312928#1972"    cd "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/Kundendaten-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Kundendaten.build/Debug-iphonesimulator/Kundendaten.build/DerivedSources" -c "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/Kundendaten_Prefix.pch" -o /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Kundendaten_Prefix-grxqwnqsfkejlcfpvnylwakfxjqw/Kundendaten_Prefix.pch.gch0#
+
+CTouch "/Volumes/KAI HARTZ/XCode Projekte/Kundendaten/build/Debug-iphonesimulator/Kundendaten.app"
+r0
+

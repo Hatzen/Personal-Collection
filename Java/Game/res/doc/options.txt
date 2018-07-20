@@ -1,0 +1,3 @@
+volume=off
+fullscreen=off
+grafik=high

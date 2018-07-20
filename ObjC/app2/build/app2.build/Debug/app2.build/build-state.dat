@@ -1,0 +1,63 @@
+Tapp2
+v7
+r1
+
+N/Volumes/KAI HARTZ/XCode Projekte/app2/Classes/secondView.xib
+c0000000051E3E6A200000000000027B0
+t1373890210
+s10160
+
+N/Volumes/KAI HARTZ/XCode Projekte/app2/MainWindow.xib
+c0000000051E3E504000000000000242D
+t1373889796
+s9261
+
+N/Volumes/KAI HARTZ/XCode Projekte/app2/app2ViewController.xib
+c0000000051E3E68C0000000000002784
+t1373890188
+s10116
+
+N/Volumes/KAI HARTZ/XCode Projekte/app2/build/Debug/app2.app
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app2/build/Debug/app2.app/Contents/Info.plist
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app2/build/Debug/app2.app/Contents/PkgInfo
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app2/build/Debug/app2.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app2/build/Debug/app2.app/Contents/Resources/app2ViewController.nib
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app2/build/Debug/app2.app/Contents/Resources/secondView.nib
+t2
+s0
+
+Napp2-Info.plist
+c0000000051E3E504000000000000038D
+t1373889796
+s909
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/app2/Classes/secondView.xib"
+r0
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/app2/MainWindow.xib"
+r0
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/app2/app2ViewController.xib"
+r0
+
+CProcessInfoPlistFile "/Volumes/KAI HARTZ/XCode Projekte/app2/build/Debug/app2.app/Contents/Info.plist" app2-Info.plist
+r0
+
+CTouch "/Volumes/KAI HARTZ/XCode Projekte/app2/build/Debug/app2.app"
+r0
+

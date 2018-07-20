@@ -1,0 +1,152 @@
+import javax.swing.*;
+import java.awt.*;
+import java.util.ArrayList;
+import java.awt.geom.AffineTransform;
+import java.awt.event.*;
+
+public class MiniKarte extends JPanel implements MouseMotionListener,MouseListener
+{
+    private Karte karte;
+    private GameBar gameBar;
+    private int transx;
+    private int transy;
+    private int translatex;
+    private int translatey;
+    private int height;
+    private int width;
+    private int faktor;
+    private SpielerDaten spielerDaten;
+
+    public MiniKarte(Karte karte, int width, int height, GameBar gameBar,SpielerDaten spielerDaten)
+    {
+        this.setLocation(400,25);
+        this.setSize(225, 175);
+        this.karte = karte;
+        this.addMouseMotionListener(this);
+        this.addMouseListener(this);
+        this.width = width;
+        this.height = height;
+        this.gameBar = gameBar;
+        this.spielerDaten = spielerDaten;
+        
+        translatex = 0;
+        translatey = 0;
+    }
+    
+    public void zeichneNeu()
+    {
+        this.repaint();
+    }
+    
+    public void setKarte(Karte karte)
+    {
+        this.karte = karte;
+        zeichneNeu();
+    }
+    
+    public Karte getKarte()
+    {
+        return karte;
+    }
+    
+    public void setLook(int x, int y)
+    {
+        translatex = x;
+        translatey = y;
+    }
+    
+    @Override
+    public void paintComponent(Graphics g)
+    {
+        Graphics2D g2d = (Graphics2D) g;
+                g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+                g2d.setStroke(new BasicStroke(1));
+                    
+        faktor = (int) (karte.getSize().getHeight()/this.getHeight());
+        if(karte.getSize().getWidth() > karte.getSize().getHeight())
+        {
+            faktor = (int) (karte.getSize().getWidth()/this.getWidth());
+            faktor++;
+        }
+        g.setColor(Color.BLACK);
+        g.fillRect(0,0,this.getWidth(),this.getHeight());
+        
+        transx = (this.getWidth()-(int) karte.getSize().getWidth()/faktor)/2;
+        transy = (this.getHeight()-(int) karte.getSize().getHeight()/faktor)/2;
+        g.translate(transx,transy);
+        switch(karte.getKind())
+        {
+            case 1:
+                g.setColor(new Color(50,205,50));
+                break;
+            case 2:
+                g.setColor(Color.WHITE);
+                break;
+            case 3:
+                g.setColor(new Color(255,250,205));
+                break;
+        }
+        g.fillRect(0,0,(int) karte.getSize().getWidth()/faktor,(int) karte.getSize().getHeight()/faktor);
+        //Hindernisse
+        g.setColor(Color.GRAY);
+        for(Rectangle tmp: karte.getBarrier())
+        {
+            g.fillRoundRect((int) tmp.getX()/faktor,(int) tmp.getY()/faktor,(int) tmp.getWidth()/faktor,(int) tmp.getHeight()/faktor,2,2);
+        }
+        g.setColor(Color.BLACK);
+        for(int i = 0; i < karte.getStartPoint().size(); i++)
+        {
+            g.drawString("" + (i+1) ,(int) karte.getStartPoint().get(i).getX()/faktor,(int) karte.getStartPoint().get(i).getY()/faktor);
+        }
+        for(Rectangle tmp: karte.getResource())
+        {
+            g.drawString("€" ,(int) tmp.getX()/faktor,(int) tmp.getY()/faktor);
+        }
+        if(width > 0)
+        {
+            g.setColor(new Color(200,200, 240, 50));
+            g.fillRect(translatex/faktor,translatey/faktor,(int) width/faktor,(int) height/faktor);
+            g.setColor(new Color(200,200, 240));
+            g.drawRect(translatex/faktor,translatey/faktor,(int) width/faktor,(int) height/faktor);
+        }
+        for(int i = 0;i < 1; i++)
+        {
+            for( Einheit tmp: spielerDaten.getEinheiten())
+            {
+                g.fillOval(tmp.getX()/faktor,tmp.getY()/faktor,2,2);
+            }
+            for(Haus tmp: spielerDaten.getBauten())
+            {
+                g.fillRect(tmp.getX()/faktor,tmp.getY()/faktor,tmp.getWidth()/faktor,tmp.getHeight()/faktor);
+            }
+        }
+        g.translate(-(this.getWidth()-(int) karte.getSize().getWidth()/faktor)/2,-(this.getHeight()-(int) karte.getSize().getHeight()/faktor)/2);
+    }
+    
+    public void mouseReleased(MouseEvent e)
+    {
+        if(width > 0)
+        {
+            gameBar.translateSpiel(transx-e.getX()+(width/faktor/2),transy-e.getY()-(height/faktor/2));
+        }
+    }
+    
+    public void mouseDragged(MouseEvent e)
+    {
+        if(width > 0)
+        {
+            gameBar.translateSpiel(transx-e.getX()+(width/faktor/2),transy-e.getY()-(height/faktor/2));
+        }
+    }
+    
+    public void mouseMoved(MouseEvent e)
+    {}
+    public void mouseClicked(MouseEvent e)
+    {}
+    public void mousePressed(MouseEvent e)
+    {}
+    public void mouseEntered(MouseEvent e)
+    {}
+    public void mouseExited(MouseEvent e)
+    {}
+}

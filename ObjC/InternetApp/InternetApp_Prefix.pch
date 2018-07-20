@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'InternetApp' target in the 'InternetApp' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif

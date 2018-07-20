@@ -1,0 +1,51 @@
+Tapp3
+v7
+r1
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/MainWindow.xib
+c0000000051E3EC3A000000000000242D
+t1373891642
+s9261
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/app3ViewController.xib
+c0000000051E3FB1A00000000000032D2
+t1373895450
+s13010
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug/app3.app
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug/app3.app/Contents/Info.plist
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug/app3.app/Contents/PkgInfo
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug/app3.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug/app3.app/Contents/Resources/app3ViewController.nib
+t2
+s0
+
+Napp3-Info.plist
+c0000000051E3EC3A000000000000038D
+t1373891642
+s909
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/app3/MainWindow.xib"
+r0
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/app3/app3ViewController.xib"
+r0
+
+CProcessInfoPlistFile "/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug/app3.app/Contents/Info.plist" app3-Info.plist
+r0
+
+CTouch "/Volumes/KAI HARTZ/XCode Projekte/app3/build/Debug/app3.app"
+r0
+

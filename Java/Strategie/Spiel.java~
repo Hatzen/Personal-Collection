@@ -1,0 +1,861 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.ArrayList;
+import java.awt.geom.AffineTransform;
+
+import java.awt.geom.Rectangle2D;
+import java.awt.image.BufferedImage;
+import java.util.Random;
+
+public class Spiel extends JPanel implements MouseMotionListener,MouseListener,ActionListener,KeyListener
+{
+    private Start start;
+    private Timer repeat;
+    private Timer timer;
+    
+    private Karte karte;
+    private GameBar gameBar;
+    private Grafiken grafiken;
+    private MiniKarte miniKarte;
+    
+    private boolean up;
+    private boolean down;
+    private boolean left;
+    private boolean right;
+    private boolean kollision;
+    private boolean dragged;
+    private int translatex;
+    private int translatey;
+    private int xpos;
+    private int ypos;
+    private int bauen;
+    
+    private Point marker;
+    private Point markerend;
+    
+    private ArrayList<Einheit> einheiten;
+    private ArrayList<Haus> bauten;
+    private ArrayList<String> nachrichten;
+    private SpielerDaten spielerDaten;
+    
+    private ArrayList<BufferedImage> sektoren;
+    private ArrayList<Rectangle> sektorFeld;
+    private BufferedImage fog;
+    
+    private ArrayList<Einheit> auswahl;
+    private JLabel[] bauListe;
+    
+    private ArrayList<Einheit> wahl0;
+    private ArrayList<Einheit> wahl1;
+    private ArrayList<Einheit> wahl2;
+    private ArrayList<Einheit> wahl3;
+    private ArrayList<Einheit> wahl4;
+    private ArrayList<Einheit> wahl5;
+    private ArrayList<Einheit> wahl6;
+    private ArrayList<Einheit> wahl7;
+    private ArrayList<Einheit> wahl8;
+    private ArrayList<Einheit> wahl9;
+    
+    public Spiel(Start start)
+    {
+        this.start = start;
+        this.addMouseMotionListener(this);
+        this.addMouseListener(this);
+        
+        wahl0 = new ArrayList<Einheit>();
+        wahl1 = new ArrayList<Einheit>();
+        wahl2 = new ArrayList<Einheit>();
+        wahl3 = new ArrayList<Einheit>();
+        wahl4 = new ArrayList<Einheit>();
+        wahl5 = new ArrayList<Einheit>();
+        wahl6 = new ArrayList<Einheit>();
+        wahl7 = new ArrayList<Einheit>();
+        wahl8 = new ArrayList<Einheit>();
+        wahl9 = new ArrayList<Einheit>();
+        
+        marker = new Point(0,0);
+        markerend = new Point(0,0);
+        
+        sektoren = new ArrayList();
+        sektorFeld = new ArrayList();
+        bauten = new ArrayList<Haus>();
+        einheiten = new ArrayList<Einheit>();
+        nachrichten = new ArrayList<String>();
+        System.out.println("" + spielerDaten.getPos());
+        spielerDaten.setLists(einheiten,bauten,nachrichten);
+        
+        auswahl = new ArrayList<Einheit>();
+        timer = new Timer(30, this);
+        repeat = new Timer(10, this);
+        reset();
+    }
+    
+    public void entwicklung()
+    {
+        einheiten.add(new Einheit(200,200,1,grafiken,2));
+    }
+    
+    public void reset()
+    {
+        this.addKeyListener(this);
+        bauten.clear();
+        einheiten.clear();
+        up = false;
+        down = false;
+        left = false;
+        right = false;
+        kollision = false;
+        dragged = false;
+        translatex = 0;
+        translatey = 0;
+        xpos = 0;
+        ypos = 0;
+        bauen = 0;
+    }
+    
+    public void neustart(int delay, Karte karte, SpielerDaten spielerDaten)
+    {
+        reset();
+        this.karte = karte;
+            miniKarte.setKarte(karte);
+        this.spielerDaten = spielerDaten;
+            grafiken = new Grafiken(spielerDaten.getFarbe());
+        entwicklung();
+        erzeugeKarte(karte);
+        repeat.setDelay(delay);
+        runTimer(true);
+    }
+    
+    public void gameover()
+    {
+        this.removeKeyListener(this);
+        repeat.stop();
+    }
+    
+    public void translate(int x, int y)
+    {
+        int ytmp = (int) (y*(Math.round(karte.getSize().getHeight())/miniKarte.getHeight()));
+        int xtmp = (int) (x*(Math.round(karte.getSize().getWidth())/miniKarte.getWidth()));
+        if(ytmp > -karte.getSize().getHeight()+this.getHeight()-100 && ytmp < 100)
+        {
+            translatey = ytmp;
+        }
+        if(xtmp < 300 && xtmp > -karte.getSize().getWidth()+this.getWidth()-100)
+        {
+            translatex  = xtmp;
+        }
+    }
+    
+    public void runTimer(boolean start)
+    {
+        if(start)
+        {
+            repeat.start();
+            timer.start();
+        }
+        else
+        {
+            repeat.stop();
+            timer.stop();
+        }
+    }
+    
+    public void setGameBar(GameBar gameBar)
+    {
+        this.gameBar = gameBar;
+        miniKarte = gameBar.getMiniKarte();
+    }
+    
+    public void setBauen(int i)
+    {
+        bauen = i;
+    }
+    
+    private void erzeugeKarte(Karte karte)
+    {
+        BufferedImage img = new BufferedImage((int) karte.getSize().getWidth()+800,(int) karte.getSize().getHeight()+800, BufferedImage.TYPE_INT_RGB );
+            Graphics g = img.getGraphics();
+            Graphics2D g2d = (Graphics2D) g;
+                    
+            GradientPaint borderLeft = new GradientPaint(400, 400, new Color(0,0,0,255), 480, 400, new Color(0,0,0,0));
+            GradientPaint borderRight = new GradientPaint((int) karte.getSize().getWidth()+400, 0, new Color(0,0,0,255), (int) karte.getSize().getWidth()+400-80, 0, new Color(0,0,0,0));
+            GradientPaint borderTop = new GradientPaint(400, 400, new Color(0,0,0,255), 400, 480, new Color(0,0,0,0));
+            GradientPaint borderBottom = new GradientPaint(400, (int) karte.getSize().getHeight()+400, new Color(0,0,0,255), 400, (int) karte.getSize().getHeight()+400-80, new Color(0,0,0,0));
+            g.setColor(Color.BLACK);
+            g.fillRect(0,0,(int) karte.getSize().getWidth()+800,(int) karte.getSize().getHeight()+800);
+            switch(karte.getKind())
+            {
+                case 1:
+                    g.setColor(new Color(50,205,50));
+                    break;
+                case 2:
+                    g.setColor(Color.WHITE);
+                    break;
+                case 3:
+                    g.setColor(new Color(255,250,205));
+                    break;
+            }
+            g.fillRect(400,400,(int) karte.getSize().getWidth(),(int) karte.getSize().getHeight());
+            //Pikmentierung
+            Random random = new Random();
+            for(int i = 0, ende = random.nextInt(6000)+4000; i < ende ; i++)
+            {
+                int color = random.nextInt(50)+40;
+                g.setColor(new Color(color,color,color,50));
+                g.fillRect(random.nextInt((int) karte.getSize().getWidth())+400,random.nextInt((int) karte.getSize().getHeight())+400,random.nextInt(3)+1, random.nextInt(3)+1);
+            }
+            //Hindernisse
+            g.setColor(Color.GRAY);
+            for(Rectangle tmp: karte.getBarrier())
+            {
+                g.fillRoundRect((int) tmp.getX()+400,(int) tmp.getY()+400,(int) tmp.getWidth(),(int) tmp.getHeight(),30,30);
+            }
+            g2d.setPaint(borderLeft);
+            g2d.fill(new Rectangle2D.Double(400, 400, 480, (int) karte.getSize().getHeight()+400));
+            g2d.setPaint(borderRight);
+            g2d.fill(new Rectangle2D.Double((int) karte.getSize().getWidth()+400-80, 400, (int) karte.getSize().getWidth(), (int) karte.getSize().getHeight()));
+            g2d.setPaint(borderTop);
+            g2d.fill(new Rectangle2D.Double(400, 400, (int) karte.getSize().getWidth(), 80));
+            g2d.setPaint(borderBottom);
+            g2d.fill(new Rectangle2D.Double(400, (int) karte.getSize().getHeight()+400-80, (int) karte.getSize().getWidth(), 80));
+            g.dispose();
+        sektoren.clear();
+        sektorFeld.clear();
+        for(int i = 0; i*this.getWidth() < img.getWidth(); i++)
+        { 
+            for(int j = 0; j*this.getHeight() < img.getHeight(); j++)
+            { 
+                if(img.getHeight()-j*this.getHeight() >= this.getHeight() )
+                {
+                    if(img.getWidth()-i*this.getWidth() >= this.getWidth())
+                    {
+                        sektoren.add(img.getSubimage(i*this.getWidth(), j*this.getHeight(), this.getWidth(), this.getHeight()));
+                        sektorFeld.add(new Rectangle(i*this.getWidth()-400, j*this.getHeight()-400, this.getWidth(), this.getHeight()));
+                    }
+                    else
+                    {
+                        sektoren.add(img.getSubimage(i*this.getWidth(), j*this.getHeight(), img.getWidth()-i*this.getWidth(), this.getHeight()));
+                        sektorFeld.add(new Rectangle(i*this.getWidth()-400, j*this.getHeight()-400, img.getWidth()-i*this.getWidth(), this.getHeight()));
+                    }
+                }
+                else
+                {
+                    if(img.getWidth()-i*this.getWidth() >= this.getWidth())
+                    {
+                        sektoren.add(img.getSubimage(i*this.getWidth(), j*this.getHeight(), this.getWidth(), img.getHeight()-j*this.getHeight()));
+                        sektorFeld.add(new Rectangle(i*this.getWidth()-400, j*this.getHeight()-400, this.getWidth(), img.getHeight()-j*this.getHeight()));
+                    }
+                    else
+                    {
+                        sektoren.add(img.getSubimage(i*this.getWidth(), j*this.getHeight(), img.getWidth()-i*this.getWidth(), img.getHeight()-j*this.getHeight()));
+                        sektorFeld.add(new Rectangle(i*this.getWidth()-400, j*this.getHeight()-400, img.getWidth()-i*this.getWidth(), img.getHeight()-j*this.getHeight()));
+                    }
+                }
+            }
+        }
+    }
+    
+    public void calculateFog()
+    {
+         fog = new BufferedImage(this.getWidth(),this.getHeight() , BufferedImage.TYPE_INT_ARGB );
+                Graphics gfog = fog.getGraphics();
+                Graphics2D g2dfog = (Graphics2D) gfog;
+                        
+                gfog.setColor(new Color(50,50,50,150));
+                gfog.fillRect(0,0,(int) karte.getSize().getWidth(),(int) karte.getSize().getHeight());
+                for(Einheit tmp : einheiten)
+                {
+                    g2dfog.setComposite (AlphaComposite.getInstance(AlphaComposite.SRC, 0));
+                    g2dfog.fillOval((int) tmp.getRange().getX()+translatex,(int) tmp.getRange().getY()+translatey,(int) tmp.getRange().getWidth(),(int) tmp.getRange().getHeight());
+                }
+                gfog.dispose();
+    }
+    
+    public void paintComponent(Graphics g)
+    {
+        //Antiliasing
+        Graphics2D g2d = (Graphics2D) g;
+                g2d.setRenderingHint(RenderingHints.KEY_RENDERING, RenderingHints.VALUE_RENDER_QUALITY);
+                g2d.setStroke(new BasicStroke(1));
+                g2d.translate(translatex,translatey);
+        //Hintergrund
+        Rectangle kamera = new Rectangle(-translatex,-translatey,this.getWidth(),this.getHeight());
+        for(int i = 0; i < sektoren.size();i++)
+        {
+            //System.out.println(sektorFeld.get(i) + "schneidet Kamera " + kamera);
+            if(kamera.intersects(sektorFeld.get(i)))
+            {
+                g2d.drawImage(sektoren.get(i), null ,(int) sektorFeld.get(i).getX(),(int) sektorFeld.get(i).getY() );
+            }
+        }
+        
+        for(Haus tmp: bauten)
+        {
+            g2d.drawImage(tmp.getImg(), null ,tmp.getX(), tmp.getY());
+        }
+        for(Einheit tmp: einheiten)
+        {
+            AffineTransform trans = new AffineTransform();
+                trans.translate(tmp.getX(),tmp.getY());
+                trans.rotate(-Math.toRadians(tmp.getRotate()),tmp.getWidth()/2,tmp.getHeight()/2);
+            g2d.drawImage(tmp.getImg(), trans ,null);
+            if(auswahl.contains(tmp))
+            {
+                g.setColor(new Color(100,100,255,50));
+                g.fillRect(tmp.getX(),tmp.getY()-15,45*(tmp.getLeben()/tmp.getMaxLeben()),10);
+                g.setColor(new Color(100,100,255));
+                g.drawRect(tmp.getX(),tmp.getY()-15,45,10);
+                //Ziel Markieren
+                g.setColor(new Color(100,100,255,200));
+                g.drawRect((int) tmp.getZiel().getX(),(int) tmp.getZiel().getY(),4,4);
+                g.drawLine(tmp.getX(),tmp.getY(),(int) tmp.getZiel().getX(), (int) tmp.getZiel().getY());
+            }
+        }
+        if(dragged)
+        {
+            int width = (int) (markerend.getX()-marker.getX());
+            int height = (int) (markerend.getY()-marker.getY());
+            int x = (int) marker.getX()-translatex;
+            int y = (int) marker.getY()-translatey;
+            if(width < 0)
+            {
+                x += width;
+                width = Math.abs(width);
+            }
+            if(height < 0)
+            {
+                y += height;
+                height = Math.abs(height);
+            }
+            g.setColor(new Color(200,200, 240, 50));
+            g.fillRect(x,y,width,height);
+            g.setColor(new Color(200,200, 240));
+            g.drawRect(x,y,width,height);
+        }
+        //Bauen
+        if(bauen > 0)
+        {
+            Haus tmp = new Haus(xpos, ypos, bauen,grafiken );
+            kollision = findKollision(tmp.getUmriss());
+            if(!kollision)
+            {
+                g.setColor(new Color(0,200,0,150));
+            }
+            else
+            {
+                g.setColor(new Color(200,0,0,150));
+            }
+            g.fillRect(tmp.getX(),tmp.getY(), tmp.getWidth(), tmp.getHeight());
+        }
+        g2d.translate(-translatex,-translatey);
+        g2d.drawImage(fog, null , 0, 0);
+        g2d.translate(translatex,translatey);
+    }
+    
+    private boolean findKollision(Rectangle umriss)
+    {
+        for(Haus tmp: bauten)
+        {
+            if(umriss.intersects(tmp.getUmriss()))
+            {
+                return true;
+            }
+        }
+        for(Rectangle tmp:karte.getBarrier())
+        {
+            if(umriss.intersects(tmp))
+            {
+                return true;
+            }
+        }
+        if(!new Rectangle(100,100,(int) karte.getSize().getWidth()-200,(int) karte.getSize().getHeight()-200).contains(umriss))
+        {
+            return true;
+        }
+        return false;
+    }
+    
+    private boolean findKollision(Point punkt, Einheit einheit)
+    {
+        for(Haus tmp: bauten)
+        {
+            if(tmp.getUmriss().contains(punkt))
+            {
+                return true;
+            }
+        }
+        for(Rectangle tmp:karte.getBarrier())
+        {
+            if(tmp.contains(punkt))
+            {
+                return true;
+            }
+        }
+        for(Einheit tmp: einheiten)
+        {
+            if(tmp.getUmriss().contains(punkt) && tmp != einheit)
+            {
+                return true;
+            }
+        }
+        if(!new Rectangle(100,100,(int) karte.getSize().getWidth()-200,(int) karte.getSize().getHeight()-200).contains(punkt))
+        {
+            return true;
+        }
+        return false;
+    }
+    
+    public void actionPerformed(ActionEvent e)
+    {
+        if(e.getSource() == repeat)
+        {
+            Point punkt;
+            for(Einheit tmp: einheiten)
+            {
+                punkt = tmp.calculateTranslation();
+                if(punkt != null)
+                {
+                    if(findKollision(punkt,tmp))
+                    {
+                        if(findKollision(new Point((int) (tmp.getX()+tmp.getUmriss().getWidth()),(int) tmp.getY()),tmp))
+                        {
+                            if(tmp.getUmgehen() == 0)
+                            {
+                                if(new Point(tmp.getX(),tmp.getY()+5).distance(tmp.getZiel()) > new Point(tmp.getX(),tmp.getY()-5).distance(tmp.getZiel()))
+                                {
+                                    punkt.setLocation(tmp.getX(),tmp.getY()-4);
+                                    tmp.setUmgehen(1);
+                                }
+                                else
+                                {
+                                    punkt.setLocation(tmp.getX(),tmp.getY()+4);
+                                    tmp.setUmgehen(2);
+                                }
+                            }
+                            else
+                            {
+                                if(tmp.getUmgehen() == 1)
+                                {
+                                    punkt.setLocation(tmp.getX(),tmp.getY()-4);
+                                }
+                                else
+                                {
+                                    punkt.setLocation(tmp.getX(),tmp.getY()+4);
+                                }
+                            }
+                        }
+                        else if(findKollision(new Point((int) (tmp.getX()-tmp.getUmriss().getWidth()),(int) tmp.getY()),tmp))
+                        {
+                            if(tmp.getUmgehen() == 0)
+                            {
+                                if(new Point(tmp.getX(),tmp.getY()+5).distance(tmp.getZiel()) > new Point(tmp.getX(),tmp.getY()-5).distance(tmp.getZiel()))
+                                {
+                                    punkt.setLocation(tmp.getX(),tmp.getY()-4);
+                                    tmp.setUmgehen(1);
+                                }
+                                else
+                                {
+                                    punkt.setLocation(tmp.getX(),tmp.getY()+4);
+                                    tmp.setUmgehen(2);
+                                }
+                            }
+                            else
+                            {
+                                if(tmp.getUmgehen() == 1)
+                                {
+                                    punkt.setLocation(tmp.getX(),tmp.getY()-4);
+                                }
+                                else
+                                {
+                                    punkt.setLocation(tmp.getX(),tmp.getY()+4);
+                                }
+                            }
+                        }
+                        else if(findKollision(new Point((int) tmp.getX(),(int) (tmp.getY()+tmp.getUmriss().getWidth())),tmp))
+                        {
+                            if(tmp.getUmgehen() == 0)
+                            {
+                                if(new Point(tmp.getX()+5,tmp.getY()).distance(tmp.getZiel()) > new Point(tmp.getX()-5,tmp.getY()).distance(tmp.getZiel()))
+                                {
+                                    punkt.setLocation(tmp.getX()-4,tmp.getY());
+                                    tmp.setUmgehen(3);
+                                }
+                                else
+                                {
+                                    punkt.setLocation(tmp.getX()+4,tmp.getY());
+                                    tmp.setUmgehen(4);
+                                }
+                            }
+                            else
+                            {
+                                if(tmp.getUmgehen() == 3)
+                                {
+                                    punkt.setLocation(tmp.getX()-4,tmp.getY());
+                                }
+                                else
+                                {
+                                    punkt.setLocation(tmp.getX()+4,tmp.getY());
+                                }
+                            }
+                        }
+                        else if(findKollision(new Point((int) tmp.getX(),(int) (tmp.getY()-(tmp.getUmriss().getWidth()))),tmp))
+                        {
+                            if(tmp.getUmgehen() == 0)
+                            {
+                                if(new Point(tmp.getX()+5,tmp.getY()).distance(tmp.getZiel()) > new Point(tmp.getX()-5,tmp.getY()).distance(tmp.getZiel()))
+                                {
+                                    punkt.setLocation(tmp.getX()-4,tmp.getY());
+                                    tmp.setUmgehen(3);
+                                }
+                                else
+                                {
+                                    punkt.setLocation(tmp.getX()+4,tmp.getY());
+                                    tmp.setUmgehen(4);
+                                }
+                            }
+                            else
+                            {
+                                if(tmp.getUmgehen() == 3)
+                                {
+                                    punkt.setLocation(tmp.getX()-4,tmp.getY());
+                                }
+                                else
+                                {
+                                    punkt.setLocation(tmp.getX()+4,tmp.getY());
+                                }
+                            }
+                        }
+                    }
+                    else
+                    {
+                        tmp.setUmgehen(0);
+                    }
+                    tmp.setTranslation(punkt);
+                }
+            }
+            for(Haus tmp : bauten)
+            {
+                Einheit einheit = tmp.redCounter();
+                if(einheit != null)
+                {
+                    einheiten.add(einheit);
+                }
+            }
+            calculateFog();
+            gameBar.refresh();
+        }
+        if(e.getSource() == timer)
+        {
+            if(up && translatey < 100)
+            {
+                translatey += 20;
+            }
+            if(down && translatey > -karte.getSize().getHeight()+this.getHeight()-100)
+            {
+                translatey -= 20;
+            }
+            if(right && translatex > -karte.getSize().getWidth()+this.getWidth()-100)
+            {
+                translatex -= 20;
+            }
+            if(left && translatex < 300)
+            {
+                translatex += 20;
+            }
+            miniKarte.setLook(-translatex,-translatey);
+            start.neuZeichnen();
+            this.requestFocus();
+        }
+    }
+    
+    public void keyPressed(KeyEvent e)
+    {
+        if(e.getKeyCode() == KeyEvent.VK_ESCAPE)
+        {
+            start.setZaehler(1);
+            start.show(1);
+            runTimer(false);
+        }
+        else
+        {
+            if(e.getKeyCode() == e.VK_UP)
+            {
+                up = true;
+            }
+            if(e.getKeyCode() == e.VK_DOWN)
+            {
+                down = true;
+            }
+            if(e.getKeyCode() == e.VK_RIGHT)
+            {
+                right = true;
+            }
+            if(e.getKeyCode() == e.VK_LEFT)
+            {
+                left = true;
+            }
+        }
+    }
+    
+    public void keyReleased(KeyEvent e)
+    {
+        if(e.getKeyCode() == e.VK_UP)
+        {
+            up = false;
+        }
+        if(e.getKeyCode() == e.VK_DOWN)
+        {
+            down = false;
+        }
+        if(e.getKeyCode() == e.VK_RIGHT)
+        {
+            right = false;
+        }
+        if(e.getKeyCode() == e.VK_LEFT)
+        {
+            left = false;
+        }
+        if(e.isControlDown())
+        {
+            if(e.getKeyCode() == e.VK_0)
+            {
+                wahl0 = new ArrayList(auswahl);
+            }
+            else if(e.getKeyCode() == e.VK_1)
+            {
+                wahl1 = new ArrayList(auswahl);
+            }
+            else if(e.getKeyCode() == e.VK_2)
+            {
+                wahl2 = new ArrayList(auswahl);
+            }
+            else if(e.getKeyCode() == e.VK_3)
+            {
+                wahl3 = new ArrayList(auswahl);
+            }
+            else if(e.getKeyCode() == e.VK_4)
+            {
+                wahl4 = new ArrayList(auswahl);
+            }
+            else if(e.getKeyCode() == e.VK_5)
+            {
+                wahl5 = new ArrayList(auswahl);
+            }
+            else if(e.getKeyCode() == e.VK_6)
+            {
+                wahl6 = new ArrayList(auswahl);
+            }
+            else if(e.getKeyCode() == e.VK_7)
+            {
+                wahl7 = new ArrayList(auswahl);
+            }
+            else if(e.getKeyCode() == e.VK_8)
+            {
+                wahl8 = new ArrayList(auswahl);
+            }
+            else if(e.getKeyCode() == e.VK_9)
+            {
+                wahl9 = new ArrayList(auswahl);
+            }
+        }
+        else 
+        {
+            if(e.getKeyCode() == e.VK_0)
+            {
+                auswahl = new ArrayList(wahl0);
+            }
+            else if(e.getKeyCode() == e.VK_1)
+            {
+                auswahl = new ArrayList(wahl1);
+            }
+            else if(e.getKeyCode() == e.VK_2)
+            {
+                auswahl = new ArrayList(wahl2);
+            }
+            else if(e.getKeyCode() == e.VK_3)
+            {
+                auswahl = new ArrayList(wahl3);
+            }
+            else if(e.getKeyCode() == e.VK_4)
+            {
+                auswahl = new ArrayList(wahl4);
+            }
+            else if(e.getKeyCode() == e.VK_5)
+            {
+                auswahl = new ArrayList(wahl5);
+            }
+            else if(e.getKeyCode() == e.VK_6)
+            {
+                auswahl = new ArrayList(wahl6);
+            }
+            else if(e.getKeyCode() == e.VK_7)
+            {
+                auswahl = new ArrayList(wahl7);
+            }
+            else if(e.getKeyCode() == e.VK_8)
+            {
+                auswahl = new ArrayList(wahl8);
+            }
+            else if(e.getKeyCode() == e.VK_9)
+            {
+                auswahl = new ArrayList(wahl9);
+            }
+        }
+    }
+    
+    public void mouseReleased(MouseEvent e)
+    {
+        if(e.getButton() == e.BUTTON1)
+        {
+            if(dragged)
+            {
+                int width = (int) (markerend.getX()-marker.getX());
+                int height = (int) (markerend.getY()-marker.getY());
+                int x = (int) marker.getX()-translatex;
+                int y = (int) marker.getY()-translatey;
+                if(width < 0)
+                {
+                    x += width;
+                    width = Math.abs(width);
+                }
+                if(height < 0)
+                {
+                    y += height;
+                    height = Math.abs(height);
+                }
+                Rectangle choice = new Rectangle(x,y,width,height);
+                boolean clear = false;
+                for(Einheit tmp: einheiten)
+                {
+                    if(tmp.getUmriss().intersects(choice))
+                    {
+                        if(!clear)
+                        {
+                            auswahl.clear();
+                            clear = true;
+                        }
+                        auswahl.add(tmp);
+                    }
+                }
+            }
+            else
+            {
+                if(auswahl.size() > 0)
+                {
+                    for(Einheit tmp: auswahl)
+                    {
+                        tmp.setZiel(e.getX()-translatex,e.getY()-translatey);
+                        tmp.setUmgehen(0);
+                    }
+                }
+                if(bauen > 0 && !kollision)
+                {
+                    bauten.add(new Haus(xpos,ypos, bauen, grafiken));
+                    bauen = 0;
+                }
+                for(Haus tmp: bauten)
+                {
+                    if(tmp.getUmriss().contains(e.getX()-translatex,e.getY()-translatey))
+                    {
+                        gameBar.setWahl(tmp);
+                    }
+                }
+                boolean clear = false;
+                for(Einheit tmp: einheiten)
+                {
+                    if(tmp.getUmriss().contains(e.getX(),e.getY()))
+                    {
+                        if(!clear)
+                        {
+                            auswahl.clear();
+                            clear = true;
+                        }
+                        auswahl.add(tmp);
+                    }
+                }
+            }
+        }
+        else 
+        {
+            auswahl.clear();
+            bauen = 0;
+            gameBar.setWahl(null);
+        }            
+        dragged = false;
+    }
+    
+    public void mouseMoved(MouseEvent e)
+    {
+        if(e.getX() > this.getWidth()-100)
+        {
+            right = true;
+        }
+        else
+        {
+            right = false;
+        }
+        if(e.getX() < 100)
+        {
+            left = true;
+        }
+        else
+        {
+            left = false;
+        }
+        if(e.getY() < 100)
+        {
+            up = true;
+        }
+        else
+        {
+            up = false;
+        }
+        if(e.getY() > this.getHeight()-100)
+        {
+            down = true;
+        }
+        else
+        {
+            down = false;
+        }
+        if(findKollision(new Rectangle(e.getX()-translatex-2,e.getY()-translatey-2,4,4)) && !auswahl.isEmpty())
+        {
+            start.setCursor(2);
+        }
+        else
+        {
+            start.setCursor(1);
+        }
+        
+        xpos = e.getX()-translatex;
+        ypos = e.getY()-translatey;
+        /*Baue eine Rasterung von 20 Pixeln*/
+        xpos = Math.round(e.getX()/20)*20-translatex;
+        ypos = Math.round(e.getY()/20)*20-translatey;
+    }
+    
+    public void mouseDragged(MouseEvent e)
+    {
+        if(SwingUtilities.isLeftMouseButton(e))
+        {
+            if(!dragged)
+            {
+                marker = e.getPoint();
+            }
+            markerend = e.getPoint();
+            dragged = true;
+        }
+    }
+    
+    public void mouseClicked(MouseEvent e)
+    {}
+    public void mousePressed(MouseEvent e)
+    {}
+    public void mouseEntered(MouseEvent e)
+    {}
+    public void mouseExited(MouseEvent e)
+    {}
+    public void keyTyped(KeyEvent e)
+    {}
+}

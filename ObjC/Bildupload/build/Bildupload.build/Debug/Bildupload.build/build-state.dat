@@ -1,0 +1,99 @@
+TBildupload
+v7
+r1
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/../Sicherung/icon.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/BilduploadViewController.xib
+c0000000051F21C2E000000000000324D
+t1374821422
+s12877
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.xib
+c0000000051F608E20000000000005995
+t1375078626
+s22933
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.xib
+c0000000051F22C960000000000003544
+t1374825622
+s13636
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/imageZoomed.xib
+c0000000051F25BE600000000000028CD
+t1374837734
+s10445
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/MainWindow.xib
+c0000000051E67A44000000000000246F
+t1374059076
+s9327
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug/Bildupload.app
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug/Bildupload.app/Contents/Info.plist
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug/Bildupload.app/Contents/PkgInfo
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug/Bildupload.app/Contents/Resources/BilduploadViewController.nib
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug/Bildupload.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug/Bildupload.app/Contents/Resources/bildadd.nib
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug/Bildupload.app/Contents/Resources/bildanzeige.nib
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug/Bildupload.app/Contents/Resources/icon.png
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug/Bildupload.app/Contents/Resources/imageZoomed.nib
+t2
+s0
+
+NBildupload-Info.plist
+c0000000051F605E20000000000000391
+t1375077858
+s913
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/BilduploadViewController.xib"
+r0
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.xib"
+r0
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.xib"
+r0
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/imageZoomed.xib"
+r0
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/MainWindow.xib"
+r0
+
+CCpResource build/Debug/Bildupload.app/Contents/Resources/icon.png ../Sicherung/icon.png
+r0
+
+CProcessInfoPlistFile "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug/Bildupload.app/Contents/Info.plist" Bildupload-Info.plist
+r0
+
+CTouch "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug/Bildupload.app"
+r0
+

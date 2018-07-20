@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Server()
+comment1.params=max
+comment1.target=void\ setMaxCon(int)
+comment2.params=
+comment2.target=void\ run()
+comment3.params=spielerDaten\ aufruf
+comment3.target=void\ broadcast(byte[],\ Verbindung)
+comment4.params=
+comment4.target=void\ exit()
+numComments=5

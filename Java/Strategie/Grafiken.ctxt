@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=color
+comment0.target=Grafiken(java.awt.Color)
+comment1.params=
+comment1.target=java.awt.image.BufferedImage\ getHq()
+comment10.params=
+comment10.target=java.awt.image.BufferedImage\ getMgPanzer()
+comment11.params=
+comment11.target=java.awt.image.BufferedImage\ getPanzer()
+comment2.params=
+comment2.target=java.awt.image.BufferedImage\ getKaserne()
+comment3.params=
+comment3.target=java.awt.image.BufferedImage\ getWaffenfarbrik()
+comment4.params=
+comment4.target=java.awt.image.BufferedImage\ getKraftwerk()
+comment5.params=
+comment5.target=java.awt.image.BufferedImage\ getRaketen()
+comment6.params=
+comment6.target=java.awt.image.BufferedImage\ getMg()
+comment7.params=
+comment7.target=java.awt.image.BufferedImage\ getSoldat()
+comment8.params=
+comment8.target=java.awt.image.BufferedImage\ getRaketenSoldat()
+comment9.params=
+comment9.target=java.awt.image.BufferedImage\ getSchuetze()
+numComments=12

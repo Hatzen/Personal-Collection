@@ -1,0 +1,314 @@
+TBilderwahl
+v7
+r0
+t397127641.039292
+cCheck dependencies
+cProcessInfoPlistFile "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/Info.plist" Bilderwahl-Info.plist
+cCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/MainWindow.xib"
+cCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/BilderwahlViewController.xib"
+cCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/bildVorschau.xib"
+cProcessPCH /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bilderwahl_Prefix-epwdalesgfkmovasvnbvwekrlsqw/Bilderwahl_Prefix.pch.gch Bilderwahl_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/main.o "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/BilderwahlAppDelegate.o "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/BilderwahlAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/BilderwahlViewController.o "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/BilderwahlViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/bildVorschau.o "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/bildVorschau.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/Bilderwahl" normal i386
+cGenerateDSYMFile "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app.dSYM" "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/Bilderwahl"
+cTouch "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/BilderwahlViewController.xib
+c0000000051F9203E0000000000008BCC
+t1375281214
+s35788
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Bilderwahl_Prefix.pch
+c0000000051F916BA00000000000000BD
+t1375278778
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/../main.m
+c0000000051F916BC000000000000016A
+t1375278780
+s362
+i<UIKit/UIKit.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/BilderwahlAppDelegate.h
+c0000000051F916B200000000000001EF
+t1375278770
+s495
+i<UIKit/UIKit.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/BilderwahlAppDelegate.m
+c0000000051F916B60000000000000AB7
+t1375278774
+s2743
+i"BilderwahlAppDelegate.h"
+i"BilderwahlViewController.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/BilderwahlViewController.h
+c0000000051F91E2C00000000000001D8
+t1375280684
+s472
+i<UIKit/UIKit.h>
+i"bildVorschau.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/BilderwahlViewController.m
+c0000000051F9FC280000000000000C05
+t1375337512
+s3077
+i"BilderwahlViewController.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/bildVorschau.h
+c0000000051F9214800000000000000D7
+t1375281480
+s215
+i<UIKit/UIKit.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/bildVorschau.m
+c0000000051F9212A000000000000010C
+t1375281450
+s268
+i"bildVorschau.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/bildVorschau.xib
+c0000000051F920100000000000005AE0
+t1375281168
+s23264
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/MainWindow.xib
+c0000000051F916B80000000000004E4D
+t1375278776
+s20045
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/Bilderwahl.LinkFileList
+c0000000051F91D8C0000000000000271
+t1375280524
+s625
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/BilderwahlAppDelegate.o
+t1375281510
+s51668
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/BilderwahlViewController.o
+t1375337514
+s55512
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/bildVorschau.o
+t1375281516
+s37884
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/main.o
+t1375278818
+s6344
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app
+t1375337514
+s4096
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app.dSYM
+t1375337514
+s4096
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/Bilderwahl
+t1375337514
+s24504
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/BilderwahlViewController.nib
+t1375281238
+s5685
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/Info.plist
+t1375278808
+s603
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/MainWindow.nib
+t1375278812
+s1687
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/PkgInfo
+t1375278808
+s8
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/bildVorschau.nib
+t1375281240
+s3652
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/main.m
+c0000000051F916BC000000000000016A
+t1375278780
+s362
+i<UIKit/UIKit.h>
+
+N/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bilderwahl_Prefix-epwdalesgfkmovasvnbvwekrlsqw/Bilderwahl_Prefix.pch.gch
+t1375278818
+s15814064
+
+NBilderwahl-Info.plist
+c0000000051F916BA000000000000038D
+t1375278778
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies397127636#397127641#0(0"0(0#1#0"8631160864#0"0#
+
+CCompileC build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/BilderwahlAppDelegate.o "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/BilderwahlAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s396974305.577706
+e396974310.950226
+r1
+xCompileC
+xbuild/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/BilderwahlAppDelegate.o
+x/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/BilderwahlAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/BilderwahlAppDelegate.m396974305#396974310#0(0"0(0#0#87"/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/BilderwahlAppDelegate.m8617688320#2225"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bilderwahl_Prefix-epwdalesgfkmovasvnbvwekrlsqw/Bilderwahl_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/BilderwahlAppDelegate.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/BilderwahlAppDelegate.o"0#
+
+CCompileC build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/BilderwahlViewController.o "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/BilderwahlViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s397030314.227539
+e397030314.375098
+r1
+xCompileC
+xbuild/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/BilderwahlViewController.o
+x/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/BilderwahlViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/BilderwahlViewController.m397030314#397030314#0(0"0(0#0#90"/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/BilderwahlViewController.m8618496448#2231"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bilderwahl_Prefix-epwdalesgfkmovasvnbvwekrlsqw/Bilderwahl_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/BilderwahlViewController.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/BilderwahlViewController.o"0#
+
+CCompileC build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/bildVorschau.o "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/bildVorschau.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s396974315.842698
+e396974317.913721
+r1
+xCompileC
+xbuild/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/bildVorschau.o
+x/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/bildVorschau.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/bildVorschau.m396974315#396974317#0(0"0(0#0#78"/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/bildVorschau.m8618732768#2207"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bilderwahl_Prefix-epwdalesgfkmovasvnbvwekrlsqw/Bilderwahl_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/bildVorschau.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/bildVorschau.o"0#
+
+CCompileC build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/main.o "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/../main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/main.o "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s396971618.871209
+e396971618.951603
+r1
+xCompileC
+xbuild/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/main.o
+x/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/main.m396971618#396971618#0(0"0(0#0#62"/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/main.m8617910944#2183"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bilderwahl_Prefix-epwdalesgfkmovasvnbvwekrlsqw/Bilderwahl_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/main.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/BilderwahlViewController.xib"
+s396974034.906002
+e396974041.090306
+r1
+xCompileXIB
+x/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/BilderwahlViewController.xib
+lSLF07#2@39"CompileXIB BilderwahlViewController.xib396974034#396974041#0(0"0(0#0#84"/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/BilderwahlViewController.xib8615189088#658"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/BilderwahlViewController.nib" "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/BilderwahlViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/bildVorschau.xib"
+s396974041.090436
+e396974044.003535
+r1
+xCompileXIB
+x/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/bildVorschau.xib
+lSLF07#2@35"CompileXIB Classes/bildVorschau.xib396974041#396974044#0(0"0(0#0#80"/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/bildVorschau.xib8620880992#642"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/bildVorschau.nib" "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Classes/bildVorschau.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/MainWindow.xib"
+s396971608.923841
+e396971612.159249
+r1
+xCompileXIB
+x/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib396971608#396971612#0(0"0(0#0#70"/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/MainWindow.xib8616021216#630"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/MainWindow.nib" "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CGenerateDSYMFile "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app.dSYM" "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/Bilderwahl"
+s397030314.397273
+e397030314.795235
+r1
+xGenerateDSYMFile
+x/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app.dSYM
+x/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/Bilderwahl
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/Bilderwahl.app.dSYM build/Debug-iphonesimulator/Bilderwahl.app/Bilderwahl397030314#397030314#0(0"0(0#0#109"/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/Bilderwahl8616774240#449"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/Bilderwahl" -o "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app.dSYM"0#
+
+CLd "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/Bilderwahl" normal i386
+s397030314.375271
+e397030314.397188
+r1
+xLd
+x/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/Bilderwahl
+xnormal
+xi386
+lSLF07#2@114"Link /Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/Bilderwahl397030314#397030314#0(0"0(0#0#0"8617163200#1010"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk "-L/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator" "-F/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator" -filelist "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Objects-normal/i386/Bilderwahl.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/Bilderwahl"0#
+
+CProcessInfoPlistFile "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/Info.plist" Bilderwahl-Info.plist
+s396971606.901292
+e396971608.923716
+r1
+xProcessInfoPlistFile
+x/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/Info.plist
+xBilderwahl-Info.plist
+lSLF07#2@29"Process Bilderwahl-Info.plist396971606#396971608#0(0"0(0#0#77"/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Bilderwahl-Info.plist8617498368#545"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Bilderwahl-Info.plist -genpkginfo "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app/Info.plist"0#
+
+CProcessPCH /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bilderwahl_Prefix-epwdalesgfkmovasvnbvwekrlsqw/Bilderwahl_Prefix.pch.gch Bilderwahl_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s396971617.311711
+e396971618.870483
+r1
+xProcessPCH
+x/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bilderwahl_Prefix-epwdalesgfkmovasvnbvwekrlsqw/Bilderwahl_Prefix.pch.gch
+xBilderwahl_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Bilderwahl_Prefix.pch396971617#396971618#0(0"0(0#0#77"/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Bilderwahl_Prefix.pch8615903904#2053"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/Bilderwahl-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Bilderwahl.build/Debug-iphonesimulator/Bilderwahl.build/DerivedSources" -c "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/Bilderwahl_Prefix.pch" -o /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bilderwahl_Prefix-epwdalesgfkmovasvnbvwekrlsqw/Bilderwahl_Prefix.pch.gch0#
+
+CTouch "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app"
+s397030314.795707
+e397030314.809162
+r1
+xTouch
+x/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app
+lSLF07#2@104"Touch /Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app397030314#397030314#0(0"0(0#0#0"8604596000#319"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Volumes/KAI HARTZ/XCode Projekte/Bilderwahl/Bilderwahl/build/Debug-iphonesimulator/Bilderwahl.app"0#
+

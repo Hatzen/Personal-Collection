@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=horizontal\ pos\ grafik
+comment0.target=Laser(boolean,\ int,\ int)
+comment1.params=event
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=2

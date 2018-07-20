@@ -1,0 +1,4 @@
+/Users/kaihartz/Desktop/Kundendaten/Classes/tableCell.m:5: warning: property 'labels' requires method '-labels' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/kaihartz/Desktop/Kundendaten/Classes/tableCell.m:5: warning: property 'labels' requires the method 'setLabels:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/kaihartz/Desktop/Kundendaten/Classes/tableCell.m:5: warning: incomplete implementation of class 'tableCell'
+/Users/kaihartz/Desktop/Kundendaten/Classes/tableCell.m:5: warning: method definition for '-prepare' not found

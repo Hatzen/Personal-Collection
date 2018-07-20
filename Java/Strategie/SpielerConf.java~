@@ -1,0 +1,107 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.util.ArrayList;
+
+public class SpielerConf extends JPanel
+{
+    private JComboBox spielerTyp ;
+    private JComboBox farbe;
+    private JComboBox team;
+    private ArrayList<String> spielerDaten;
+    
+    public SpielerConf()
+    {
+        spielerTyp = new JComboBox();
+            spielerTyp.addItem("Offen");
+            spielerTyp.addItem("Geschlossen");
+            spielerTyp.addItem("Computer");
+        
+        farbe = new JComboBox();
+            farbe.addItem("Rot");
+            farbe.addItem("Blau");
+            farbe.addItem("Gelb");
+            farbe.addItem("Weiß");
+            farbe.addItem("Grün");
+            farbe.addItem("Schwarz");
+            farbe.addItem("Grau");
+            
+        team = new JComboBox();
+            team.addItem("Kein");
+            team.addItem("1");
+            team.addItem("2");
+            team.addItem("3");
+            team.addItem("4");
+            
+        this.add(spielerTyp);
+        this.add(farbe);
+        this.add(team);
+        
+        spielerDaten = new ArrayList<String>();
+           spielerDaten.add("Position");
+           spielerDaten.add("Farbe");
+           spielerDaten.add("Team");
+           spielerDaten.add("Nachrichten");
+           spielerDaten.add("Name");
+    }
+    
+    public void refreshSpielerDaten(SpielerDaten spielerDaten)
+    {
+        String color = (String) farbe.getSelectedItem();
+        if(color.equals("Rot"))
+        {
+            spielerDaten.setFarbe(new Color(200,0,0));
+        }
+        else if(color.equals("Blau"))
+        {
+            spielerDaten.setFarbe(new Color(0,0,200));
+        }
+        else if(color.equals("Gelb"))
+        {
+            spielerDaten.setFarbe(new Color(255,255,0));
+        }
+        else if(color.equals("Weiß"))
+        {
+            spielerDaten.setFarbe(new Color(235,235,235));
+        }
+        else if(color.equals("Grün"))
+        {
+            spielerDaten.setFarbe(new Color(0,200,0));
+        }
+        else if(color.equals("Schwarz"))
+        {
+            spielerDaten.setFarbe(new Color(40,40,40));
+        }
+        else if(color.equals("Grau"))
+        {
+            spielerDaten.setFarbe(new Color(140,140,140));
+        }
+        spielerDaten.setTeam(Integer.parseInt((String) team.getSelectedItem()));
+    }
+    
+    public void refresh()
+    {
+        if(spielerTyp.getSelectedItem().equals("Computer"))
+        {
+            farbe.enable();
+            team.enable();
+        }
+        else
+        {
+            farbe.disable();
+            team.disable();
+        }
+        farbe.repaint();
+        team.repaint();
+    }
+    
+    public Object getFarbe()
+    {
+        return farbe.getSelectedItem();
+    }
+    
+    public Object getSpielerTyp()
+    {
+        return spielerTyp.getSelectedItem();
+    }
+}

@@ -1,0 +1,18 @@
+import java.awt.geom.*;
+import java.util.Arrays;
+
+public class move2
+{
+    public move2()
+    {
+    }
+    
+    public void weiter(double x, double y, double x2, double y2)
+    {
+        double faktor = (x*x+y*y);
+        System.out.println("--------------------------");
+        System.out.println("Faktor:\t" + faktor + "P1(" + x + "/" + y + ")\tP2(" + x2 + "/" + y2 + ")");
+        System.out.println("x: " + (x+2*faktor*(x2-x)));
+        System.out.println("y: " + (y+2*faktor*(y2-y)));
+    }
+}

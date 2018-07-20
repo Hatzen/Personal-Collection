@@ -1,0 +1,527 @@
+TBildupload
+v7
+r0
+t396958226.499867
+cCheck dependencies
+cProcessInfoPlistFile "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/Info.plist" Bildupload-Info.plist
+cCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/MainWindow.xib"
+cCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/BilduploadViewController.xib"
+cCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.xib"
+cCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.xib"
+cCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/imageZoomed.xib"
+cCpResource build/Debug-iphonesimulator/Bildupload.app/icon.png icon.png
+cProcessPCH /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bildupload_Prefix-cqvqopdlqctchqfyrykhqgwxeeib/Bildupload_Prefix.pch.gch Bildupload_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/main.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/BilduploadAppDelegate.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/BilduploadAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/BilduploadViewController.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/BilduploadViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/store.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/store.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/objekt.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/objekt.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/bildanzeige.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/bildadd.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/Statics.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/Statics.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/imageZoomed.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/imageZoomed.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/Bildupload" normal i386
+cGenerateDSYMFile "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app.dSYM" "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/Bildupload"
+cTouch "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/../Sicherung/icon.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/BilduploadViewController.xib
+c0000000051F21C2E000000000000324D
+t1374821422
+s12877
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Bildupload_Prefix.pch
+c0000000051E67A4400000000000000BD
+t1374059076
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/BilduploadAppDelegate.h
+c0000000051E67A4400000000000001E7
+t1374059076
+s487
+i<UIKit/UIKit.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/BilduploadAppDelegate.m
+c0000000051E67A44000000000000026F
+t1374059076
+s623
+i"BilduploadAppDelegate.h"
+i"BilduploadViewController.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/BilduploadViewController.h
+c0000000051F21B0C0000000000000175
+t1374821132
+s373
+i<UIKit/UIKit.h>
+i"store.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/BilduploadViewController.m
+c0000000051F21B940000000000000CB9
+t1374821268
+s3257
+i"BilduploadViewController.h"
+i"bildanzeige.h"
+i"bildadd.h"
+i"Statics.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/Statics.h
+c0000000051F23AEE00000000000000BC
+t1374829294
+s188
+i<Foundation/Foundation.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/Statics.m
+c0000000051F23A5C00000000000002E3
+t1374829148
+s739
+i"Statics.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.h
+c0000000051F2737C0000000000000248
+t1374843772
+s584
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.m
+c0000000051F6097800000000000020F8
+t1375078776
+s8440
+i"bildadd.h"
+i"bildanzeige.h"
+i"objekt.h"
+i"Statics.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.xib
+c0000000051F608E20000000000005995
+t1375078626
+s22933
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.h
+c0000000051F22E280000000000000155
+t1374826024
+s341
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"objekt.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m
+c0000000051F23AEE0000000000001142
+t1374829294
+s4418
+i"bildanzeige.h"
+i"Statics.h"
+i"imageZoomed.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.xib
+c0000000051F22C960000000000003544
+t1374825622
+s13636
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/imageZoomed.h
+c0000000051F223A4000000000000009D
+t1374823332
+s157
+i<UIKit/UIKit.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/imageZoomed.m
+c0000000051F2461200000000000001B0
+t1374832146
+s432
+i"imageZoomed.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/imageZoomed.xib
+c0000000051F25BE600000000000028CD
+t1374837734
+s10445
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/objekt.h
+c0000000051ED025C0000000000000197
+t1374487132
+s407
+i<Foundation/Foundation.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/objekt.m
+c0000000051ED37D00000000000000243
+t1374500816
+s579
+i"objekt.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/store.h
+c0000000051ECE1080000000000000082
+t1374478600
+s130
+i<Foundation/Foundation.h>
+i"objekt.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/store.m
+c0000000051F241C600000000000007F4
+t1374831046
+s2036
+i"store.h"
+i"Statics.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/MainWindow.xib
+c0000000051E67A44000000000000246F
+t1374059076
+s9327
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/Bildupload.LinkFileList
+c0000000051F8E24A00000000000004F2
+t1375265354
+s1266
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/BilduploadAppDelegate.o
+t1375265362
+s51996
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/BilduploadViewController.o
+t1375265364
+s61464
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/Statics.o
+t1375265366
+s44160
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/bildadd.o
+t1375265366
+s73656
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/bildanzeige.o
+t1375265364
+s59356
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/imageZoomed.o
+t1375265366
+s39184
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/main.o
+t1375265362
+s6324
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/objekt.o
+t1375265364
+s13016
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/store.o
+t1375265364
+s12908
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app
+t1375265426
+s4096
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app.dSYM
+t1375265368
+s4096
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/Bildupload
+t1375265366
+s53328
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/BilduploadViewController.nib
+t1374821432
+s2260
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/Info.plist
+t1375077860
+s582
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/MainWindow.nib
+t1374133410
+s1501
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/PkgInfo
+t1375077860
+s8
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/bildadd.nib
+t1375265358
+s6281
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/bildanzeige.nib
+t1374826024
+s3782
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/icon.png
+t1375265426
+s2568
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/imageZoomed.nib
+t1374837762
+s1916
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/icon.png
+c0000000051F604B20000000000000A08
+t1375077554
+s2568
+
+N/Volumes/KAI HARTZ/XCode Projekte/Bildupload/main.m
+c0000000051E67A440000000000000162
+t1374059076
+s354
+i<UIKit/UIKit.h>
+
+N/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bildupload_Prefix-cqvqopdlqctchqfyrykhqgwxeeib/Bildupload_Prefix.pch.gch
+t1375265362
+s15814064
+
+NBildupload-Info.plist
+c0000000051F605E20000000000000391
+t1375077858
+s913
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies396958217#396958226#0(0"0(0#1#0"8619371424#0"0#
+
+CCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/BilduploadAppDelegate.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/BilduploadAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s396958162.810464
+e396958163.207860
+r1
+xCompileC
+xbuild/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/BilduploadAppDelegate.o
+x/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/BilduploadAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/BilduploadAppDelegate.m396958162#396958163#0(0"0(0#0#76"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/BilduploadAppDelegate.m8610471168#2104"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bildupload_Prefix-cqvqopdlqctchqfyrykhqgwxeeib/Bildupload_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/BilduploadAppDelegate.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/BilduploadAppDelegate.o"0#
+
+CCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/BilduploadViewController.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/BilduploadViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s396958163.208140
+e396958164.237446
+r1
+xCompileC
+xbuild/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/BilduploadViewController.o
+x/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/BilduploadViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/BilduploadViewController.m396958163#396958164#0(0"0(0#0#79"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/BilduploadViewController.m8592925024#2110"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bildupload_Prefix-cqvqopdlqctchqfyrykhqgwxeeib/Bildupload_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/BilduploadViewController.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/BilduploadViewController.o"0#
+
+CCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/Statics.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/Statics.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s396958166.560356
+e396958166.638131
+r1
+xCompileC
+xbuild/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/Statics.o
+x/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/Statics.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/Statics.m: In function '+[Statics pass]':
+o/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/Statics.m:10: warning: return discards qualifiers from pointer target type
+lSLF07#2@70"Compile /Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/Statics.m396958166#396958167#0(223"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/Statics.m: In function '+[Statics pass]':/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/Statics.m:10: warning: return discards qualifiers from pointer target type1(22@51"Return discards qualifiers from pointer target type396958166#95#128#0(6@62"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/Statics.m396521948#10#0#10#0#0"0(0#0#62"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/Statics.m8621932768#2076"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bildupload_Prefix-cqvqopdlqctchqfyrykhqgwxeeib/Bildupload_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/Statics.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/Statics.o"0#
+
+CCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/bildadd.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s396958165.834200
+e396958166.560271
+r1
+xCompileC
+xbuild/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/bildadd.o
+x/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.m: In function '-[bildadd clickGalerie:]':
+o/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.m:77: warning: 'setAllowsImageEditing:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImagePickerController.h:110)
+o/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.m: In function '-[bildadd clickKamera:]':
+o/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.m:87: warning: 'setAllowsImageEditing:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImagePickerController.h:110)
+lSLF07#2@70"Compile /Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.m396958165#396958166#0(793"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.m: In function '-[bildadd clickGalerie:]':/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.m:77: warning: 'setAllowsImageEditing:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImagePickerController.h:110)/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.m: In function '-[bildadd clickKamera:]':/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.m:87: warning: 'setAllowsImageEditing:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImagePickerController.h:110)2(22@216"'setAllowsImageEditing:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImagePickerController.h:110)396958166#104#293#0(6@62"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.m396771576#77#0#77#0#33"'*' is deprecated (declared at *)0(22@216"'setAllowsImageEditing:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImagePickerController.h:110)396958166#500#293#0(6@62"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.m396771576#87#0#87#0#33"'*' is deprecated (declared at *)0(0#0#62"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.m8622106208#2076"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bildupload_Prefix-cqvqopdlqctchqfyrykhqgwxeeib/Bildupload_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/bildadd.o"0#
+
+CCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/bildanzeige.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s396958165.083276
+e396958165.834024
+r1
+xCompileC
+xbuild/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/bildanzeige.o
+x/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m: In function '-[bildanzeige touchesBegan:withEvent:]':
+o/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m:20: warning: 'imageZoomed' may not respond to '-setImage:'
+o/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m:20: warning: (Messages without a matching method signature
+o/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m:20: warning: will be assumed to return 'id' and accept
+o/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m:20: warning: '...' as arguments.)
+lSLF07#2@74"Compile /Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m396958165#396958165#0(597"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m: In function '-[bildanzeige touchesBegan:withEvent:]':/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m:20: warning: 'imageZoomed' may not respond to '-setImage:'/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m:20: warning: (Messages without a matching method signature/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m:20: warning: will be assumed to return 'id' and accept/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m:20: warning: '...' as arguments.)2(22@45"'imageZoomed' may not respond to '-setImage:'396958165#122#126#0(6@66"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m396522094#20#0#20#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)396958165#248#126#0(6@66"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m396522094#20#0#20#0#0"0(0#0#66"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m8619484768#2084"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bildupload_Prefix-cqvqopdlqctchqfyrykhqgwxeeib/Bildupload_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/bildanzeige.o"0#
+
+CCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/imageZoomed.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/imageZoomed.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s396958166.638220
+e396958166.717552
+r1
+xCompileC
+xbuild/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/imageZoomed.o
+x/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/imageZoomed.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/imageZoomed.m396958166#396958167#0(0"0(0#0#66"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/imageZoomed.m8617091104#2084"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bildupload_Prefix-cqvqopdlqctchqfyrykhqgwxeeib/Bildupload_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/imageZoomed.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/imageZoomed.o"0#
+
+CCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/main.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s396958162.725555
+e396958162.810266
+r1
+xCompileC
+xbuild/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/main.o
+x/Volumes/KAI HARTZ/XCode Projekte/Bildupload/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Volumes/KAI HARTZ/XCode Projekte/Bildupload/main.m396958162#396958162#0(0"0(0#0#51"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/main.m8616234112#2062"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bildupload_Prefix-cqvqopdlqctchqfyrykhqgwxeeib/Bildupload_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/main.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/objekt.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/objekt.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s396958164.568296
+e396958165.081396
+r1
+xCompileC
+xbuild/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/objekt.o
+x/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/objekt.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/objekt.m: In function '-[objekt description]':
+o/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/objekt.m:29: warning: incompatible Objective-C types initializing 'struct NSString *', expected 'struct NSMutableString *'
+lSLF07#2@69"Compile /Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/objekt.m396958164#396958165#0(276"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/objekt.m: In function '-[objekt description]':/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/objekt.m:29: warning: incompatible Objective-C types initializing 'struct NSString *', expected 'struct NSMutableString *'1(22@100"Incompatible Objective-C types initializing 'struct NSString *', expected 'struct NSMutableString *'396958164#100#176#0(6@61"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/objekt.m396193616#29#0#29#0#61"incompatible Objective-C types initializing '*', expected '*'0(0#0#61"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/objekt.m8610860512#2074"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bildupload_Prefix-cqvqopdlqctchqfyrykhqgwxeeib/Bildupload_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/objekt.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/objekt.o"0#
+
+CCompileC build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/store.o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/store.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s396958164.237682
+e396958164.568203
+r1
+xCompileC
+xbuild/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/store.o
+x/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/store.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/store.m: In function '-[store load]':
+o/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/store.m:26: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)
+lSLF07#2@68"Compile /Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/store.m396958164#396958164#0(374"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/store.m: In function '-[store load]':/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/store.m:26: warning: 'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)1(22@208"'stringWithContentsOfURL:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:384)396958164#91#283#0(6@60"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/store.m396523846#26#0#26#0#33"'*' is deprecated (declared at *)0(0#0#60"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/store.m8622779264#2072"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bildupload_Prefix-cqvqopdlqctchqfyrykhqgwxeeib/Bildupload_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/store.m" -o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/store.o"0#
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/BilduploadViewController.xib"
+r0
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.xib"
+s396958158.191238
+e396958160.028601
+r1
+xCompileXIB
+x/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.xib
+lSLF07#2@30"CompileXIB Classes/bildadd.xib396958158#396958160#0(0"0(0#0#64"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.xib8621134816#599"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/bildadd.nib" "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildadd.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/bildanzeige.xib"
+r0
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Classes/imageZoomed.xib"
+r0
+
+CCompileXIB "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/MainWindow.xib"
+r0
+
+CCpResource build/Debug-iphonesimulator/Bildupload.app/icon.png ../Sicherung/icon.png
+s396958160.028804
+e396958161.870630
+r0
+xCpResource
+xbuild/Debug-iphonesimulator/Bildupload.app/icon.png
+x../Sicherung/icon.png
+o/Volumes/KAI HARTZ/XCode Projekte/Bildupload/../Sicherung: No such file or directory
+lSLF07#2@26"Copy ../Sicherung/icon.png396958160#396958161#0(193"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/../Sicherung: No such file or directoryCommand /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 11(4@107"Command /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp failed with exit code 1396958161#18446744073709551615#0#0(1@0"0(0#0#66"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/../Sicherung/icon.png8618677280#506"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/../Sicherung/icon.png" "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app"1#
+
+CCpResource build/Debug-iphonesimulator/Bildupload.app/icon.png icon.png
+s396958226.467180
+e396958226.493777
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Bildupload.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png396958226#396958226#0(0"0(0#0#53"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/icon.png8622774816#493"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/icon.png" "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app"0#
+
+CGenerateDSYMFile "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app.dSYM" "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/Bildupload"
+s396958166.753223
+e396958168.144533
+r1
+xGenerateDSYMFile
+x/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app.dSYM
+x/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/Bildupload
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/Bildupload.app.dSYM build/Debug-iphonesimulator/Bildupload.app/Bildupload396958166#396958168#0(0"0(0#0#98"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/Bildupload8610601824#416"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/Bildupload" -o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app.dSYM"0#
+
+CLd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/Bildupload" normal i386
+s396958166.717646
+e396958166.753133
+r1
+xLd
+x/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/Bildupload
+xnormal
+xi386
+lSLF07#2@103"Link /Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/Bildupload396958166#396958167#0(0"0(0#0#0"8616050688#955"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk "-L/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator" "-F/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator" -filelist "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Objects-normal/i386/Bildupload.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/Bildupload"0#
+
+CProcessInfoPlistFile "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app/Info.plist" Bildupload-Info.plist
+r0
+
+CProcessPCH /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bildupload_Prefix-cqvqopdlqctchqfyrykhqgwxeeib/Bildupload_Prefix.pch.gch Bildupload_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s396958161.871110
+e396958162.725402
+r1
+xProcessPCH
+x/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bildupload_Prefix-cqvqopdlqctchqfyrykhqgwxeeib/Bildupload_Prefix.pch.gch
+xBildupload_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile Bildupload_Prefix.pch396958161#396958162#0(0"0(0#0#66"/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Bildupload_Prefix.pch8610392928#1943"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-generated-files.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-own-target-headers.hmap" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-all-target-headers.hmap" -iquote "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/Bildupload-project-headers.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/include" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Bildupload.build/Debug-iphonesimulator/Bildupload.build/DerivedSources" -c "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/Bildupload_Prefix.pch" -o /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Bildupload_Prefix-cqvqopdlqctchqfyrykhqgwxeeib/Bildupload_Prefix.pch.gch0#
+
+CTouch "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app"
+s396958226.495195
+e396958226.499816
+r1
+xTouch
+x/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app
+lSLF07#2@93"Touch /Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app396958226#396958226#0(0"0(0#0#0"8620441120#297"    cd "/Volumes/KAI HARTZ/XCode Projekte/Bildupload"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Volumes/KAI HARTZ/XCode Projekte/Bildupload/build/Debug-iphonesimulator/Bildupload.app"0#
+

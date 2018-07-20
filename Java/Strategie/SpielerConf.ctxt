@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SpielerConf()
+comment1.params=spielerDaten
+comment1.target=void\ refreshSpielerDaten(SpielerDaten)
+comment2.params=
+comment2.target=void\ refresh()
+comment3.params=
+comment3.target=java.lang.Object\ getFarbe()
+comment4.params=
+comment4.target=java.lang.Object\ getSpielerTyp()
+numComments=5

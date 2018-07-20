@@ -1,0 +1,758 @@
+Tkai2
+v7
+r0
+t397491506.271765
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/Info.plist" Info.plist
+cStripNIB "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/English.lproj/MainMenu.nib"
+cCopyStringsFile "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cProcessPCH /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-egrfgbsduxpqzbgqyflnpxqlyxtd/kai2_Prefix.pch.gch kai2_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-fgfsjtkcwsdjircpekkmkcfpupzw/kai2_Prefix.pch.gch kai2_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kai2.build/Release/kai2.build/Objects-normal/ppc/main.o "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kai2.build/Release/kai2.build/Objects-normal/ppc/AppControl.o "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/AppControl.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2" normal ppc
+cCompileC build/kai2.build/Release/kai2.build/Objects-normal/i386/main.o "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kai2.build/Release/kai2.build/Objects-normal/i386/AppControl.o "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/AppControl.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2" normal i386
+cCreateUniversalBinary "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/MacOS/kai2" normal "ppc i386"
+cGenerateDSYMFile "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app.dSYM" "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/MacOS/kai2"
+cTouch "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app"
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004C238B9B00000000000000EE
+t1277397915
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/Roman/Desktop/DEV/Project/kai2/AppControl.h
+c0000000051DE6A240000000000000115
+t1373530660
+s277
+i<Cocoa/Cocoa.h>
+
+N/Users/Roman/Desktop/DEV/Project/kai2/AppControl.m
+c0000000051DE6C14000000000000050A
+t1373531156
+s1290
+i"AppControl.h"
+
+N/Users/Roman/Desktop/DEV/Project/kai2/English.lproj/InfoPlist.strings
+c0000000051DE470700000000000000CA
+t1373521671
+s202
+
+N/Users/Roman/Desktop/DEV/Project/kai2/English.lproj/MainMenu.nib
+c0000000051DE69B80000000000000088
+t1373530552
+s136
+
+N/Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app
+t1375266209
+s102
+
+N/Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app.dSYM
+t1375266209
+s102
+
+N/Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app/Contents/Info.plist
+t1373522539
+s760
+
+N/Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app/Contents/MacOS/kai2
+t1375266209
+s34404
+
+N/Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app/Contents/PkgInfo
+t1373522539
+s8
+
+N/Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1373522539
+s202
+
+N/Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app/Contents/Resources/English.lproj/MainMenu.nib
+t1373530660
+s136
+
+N/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/AppControl.o
+t1375266208
+s17428
+
+N/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2
+t1375266209
+s13924
+
+N/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2.LinkFileList
+c0000000051F8E59700000000000000D0
+t1375266199
+s208
+
+N/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/main.o
+t1375266208
+s4848
+
+N/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/AppControl.o
+t1375266207
+s17892
+
+N/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2
+t1375266208
+s13556
+
+N/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2.LinkFileList
+c0000000051F8E59700000000000000CE
+t1375266199
+s206
+
+N/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/main.o
+t1375266207
+s4880
+
+N/Users/Roman/Desktop/DEV/Project/kai2/kai2_Prefix.pch
+c0000000051DE4707000000000000008B
+t1373521671
+s139
+i<Cocoa/Cocoa.h>
+
+N/Users/Roman/Desktop/DEV/Project/kai2/main.m
+c0000000051DE470700000000000000FD
+t1373521671
+s253
+i<Cocoa/Cocoa.h>
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/AppControl.h
+c0000000051DE6A240000000000000115
+t1373530660
+s277
+i<Cocoa/Cocoa.h>
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/AppControl.m
+c0000000051DE6C14000000000000050A
+t1373531156
+s1290
+i"AppControl.h"
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/English.lproj/InfoPlist.strings
+c0000000051DE470600000000000000CA
+t1373521670
+s202
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/English.lproj/MainMenu.nib
+c0000000051DE69B80000000000000088
+t1373530552
+s136
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app
+t1375798706
+s102
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app.dSYM
+t1375798706
+s102
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/Info.plist
+t1373522538
+s760
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/MacOS/kai2
+t1375798706
+s34460
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/PkgInfo
+t1373522538
+s8
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1373522538
+s202
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/Resources/English.lproj/MainMenu.nib
+t1373530660
+s136
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/i386/AppControl.o
+t1375798705
+s17456
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2
+t1375798706
+s13980
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2.LinkFileList
+c00000000520105A900000000000000EC
+t1375798697
+s236
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/i386/main.o
+t1375798705
+s4876
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/ppc/AppControl.o
+t1375798704
+s17920
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2
+t1375798705
+s13612
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2.LinkFileList
+c00000000520105A900000000000000EA
+t1375798697
+s234
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/ppc/main.o
+t1375798704
+s4908
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/kai2_Prefix.pch
+c0000000051DE4706000000000000008B
+t1373521670
+s139
+i<Cocoa/Cocoa.h>
+
+N/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/main.m
+c0000000051DE470600000000000000FD
+t1373521670
+s253
+i<Cocoa/Cocoa.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/AppControl.h
+c0000000051DE6A240000000000000115
+t1373530660
+s277
+i<Cocoa/Cocoa.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/AppControl.m
+c0000000051DE6C14000000000000050A
+t1373531156
+s1290
+i"AppControl.h"
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/English.lproj/InfoPlist.strings
+c0000000051DE470600000000000000CA
+t1373521670
+s202
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/English.lproj/MainMenu.nib
+c0000000051DE69B80000000000001000
+t1373530552
+s4096
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app
+t1375431694
+s4096
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app.dSYM
+t1375431692
+s4096
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app/Contents/Info.plist
+t1373522538
+s760
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app/Contents/MacOS/kai2
+t1375431692
+s34408
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app/Contents/PkgInfo
+t1373522538
+s8
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1373522538
+s202
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app/Contents/Resources/English.lproj/MainMenu.nib
+t1373530660
+s4096
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/AppControl.o
+t1375431692
+s17432
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2
+t1375431692
+s13928
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2.LinkFileList
+c0000000051FB6BD400000000000000D2
+t1375431636
+s210
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/main.o
+t1375431692
+s4852
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/AppControl.o
+t1375431690
+s17896
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2
+t1375431690
+s13560
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2.LinkFileList
+c0000000051FB6BD600000000000000D0
+t1375431638
+s208
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/main.o
+t1375431688
+s4880
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/kai2_Prefix.pch
+c0000000051DE4706000000000000008B
+t1373521670
+s139
+i<Cocoa/Cocoa.h>
+
+N/Volumes/KAI HARTZ/XCode Projekte/kai2/main.m
+c0000000051DE470600000000000000FD
+t1373521670
+s253
+i<Cocoa/Cocoa.h>
+
+N/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-agmskjjospyyciammpbltioqskll/kai2_Prefix.pch.gch
+t1375431673
+s49987792
+
+N/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-atotibpdtcivqtekudrhyswyzcpz/kai2_Prefix.pch.gch
+t1375266207
+s52740496
+
+N/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-bfhnizvojfvdigdofxoyyolsqxvt/kai2_Prefix.pch.gch
+t1375266203
+s49987792
+
+N/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-egrfgbsduxpqzbgqyflnpxqlyxtd/kai2_Prefix.pch.gch
+t1375798701
+s49987792
+
+N/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-fgfsjtkcwsdjircpekkmkcfpupzw/kai2_Prefix.pch.gch
+t1375798704
+s52740496
+
+N/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-gwerzotfnwjsfsbspxufajfkwunc/kai2_Prefix.pch.gch
+t1375431687
+s52740496
+
+NInfo.plist
+c0000000051DE47060000000000000341
+t1373521670
+s833
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies397491497#397491497#0(0"0(0#1#0"8247620834010738688#0"0#
+
+CCompileC build/kai2.build/Release/kai2.build/Objects-normal/i386/AppControl.o "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/AppControl.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s397491505.560126
+e397491505.845340
+r1
+xCompileC
+xbuild/kai2.build/Release/kai2.build/Objects-normal/i386/AppControl.o
+x/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/AppControl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/AppControl.m397491505#397491505#0(0"0(0#0#64"/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/AppControl.m8617684832#1198"    cd "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/kai2.hmap" "-F/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/include" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/DerivedSources/i386" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-fgfsjtkcwsdjircpekkmkcfpupzw/kai2_Prefix.pch -c "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/AppControl.m" -o "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/i386/AppControl.o"0#
+
+CCompileC build/kai2.build/Release/kai2.build/Objects-normal/i386/AppControl.o "/Volumes/KAI HARTZ/XCode Projekte/kai2/AppControl.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s397124492.067039
+e397124492.383532
+r1
+xCompileC
+xbuild/kai2.build/Release/kai2.build/Objects-normal/i386/AppControl.o
+x/Volumes/KAI HARTZ/XCode Projekte/kai2/AppControl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Volumes/KAI HARTZ/XCode Projekte/kai2/AppControl.m397124492#397124492#0(0"0(0#0#51"/Volumes/KAI HARTZ/XCode Projekte/kai2/AppControl.m8621560096#1094"    cd "/Volumes/KAI HARTZ/XCode Projekte/kai2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/kai2.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/include" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-gwerzotfnwjsfsbspxufajfkwunc/kai2_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/kai2/AppControl.m" -o "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/AppControl.o"0#
+
+CCompileC build/kai2.build/Release/kai2.build/Objects-normal/i386/AppControl.o /Users/Roman/Desktop/DEV/Project/kai2/AppControl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s396959008.563637
+e396959008.800177
+r1
+xCompileC
+xbuild/kai2.build/Release/kai2.build/Objects-normal/i386/AppControl.o
+x/Users/Roman/Desktop/DEV/Project/kai2/AppControl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/Roman/Desktop/DEV/Project/kai2/AppControl.m396959008#396959008#0(0"0(0#0#50"/Users/Roman/Desktop/DEV/Project/kai2/AppControl.m8609850560#1070"    cd /Users/Roman/Desktop/DEV/Project/kai2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/kai2.hmap -F/Users/Roman/Desktop/DEV/Project/kai2/build/Release -I/Users/Roman/Desktop/DEV/Project/kai2/build/Release/include -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/DerivedSources/i386 -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/DerivedSources -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-atotibpdtcivqtekudrhyswyzcpz/kai2_Prefix.pch -c /Users/Roman/Desktop/DEV/Project/kai2/AppControl.m -o /Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/AppControl.o0#
+
+CCompileC build/kai2.build/Release/kai2.build/Objects-normal/i386/main.o "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s397491505.224829
+e397491505.559971
+r1
+xCompileC
+xbuild/kai2.build/Release/kai2.build/Objects-normal/i386/main.o
+x/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/main.m397491505#397491505#0(0"0(0#0#58"/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/main.m8617536704#1186"    cd "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/kai2.hmap" "-F/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/include" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/DerivedSources/i386" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-fgfsjtkcwsdjircpekkmkcfpupzw/kai2_Prefix.pch -c "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/main.m" -o "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/kai2.build/Release/kai2.build/Objects-normal/i386/main.o "/Volumes/KAI HARTZ/XCode Projekte/kai2/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s397124491.779449
+e397124492.066960
+r1
+xCompileC
+xbuild/kai2.build/Release/kai2.build/Objects-normal/i386/main.o
+x/Volumes/KAI HARTZ/XCode Projekte/kai2/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Volumes/KAI HARTZ/XCode Projekte/kai2/main.m397124491#397124492#0(0"0(0#0#45"/Volumes/KAI HARTZ/XCode Projekte/kai2/main.m8622151392#1082"    cd "/Volumes/KAI HARTZ/XCode Projekte/kai2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/kai2.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/include" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-gwerzotfnwjsfsbspxufajfkwunc/kai2_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/kai2/main.m" -o "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/kai2.build/Release/kai2.build/Objects-normal/i386/main.o /Users/Roman/Desktop/DEV/Project/kai2/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s396959008.411307
+e396959008.563533
+r1
+xCompileC
+xbuild/kai2.build/Release/kai2.build/Objects-normal/i386/main.o
+x/Users/Roman/Desktop/DEV/Project/kai2/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/Roman/Desktop/DEV/Project/kai2/main.m396959008#396959008#0(0"0(0#0#44"/Users/Roman/Desktop/DEV/Project/kai2/main.m8616313504#1058"    cd /Users/Roman/Desktop/DEV/Project/kai2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/kai2.hmap -F/Users/Roman/Desktop/DEV/Project/kai2/build/Release -I/Users/Roman/Desktop/DEV/Project/kai2/build/Release/include -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/DerivedSources/i386 -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/DerivedSources -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-atotibpdtcivqtekudrhyswyzcpz/kai2_Prefix.pch -c /Users/Roman/Desktop/DEV/Project/kai2/main.m -o /Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/main.o0#
+
+CCompileC build/kai2.build/Release/kai2.build/Objects-normal/ppc/AppControl.o "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/AppControl.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s397491504.516864
+e397491504.680342
+r1
+xCompileC
+xbuild/kai2.build/Release/kai2.build/Objects-normal/ppc/AppControl.o
+x/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/AppControl.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/AppControl.m397491504#397491504#0(0"0(0#0#64"/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/AppControl.m8617361312#1205"    cd "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/kai2.hmap" "-F/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/include" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/DerivedSources/ppc" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-egrfgbsduxpqzbgqyflnpxqlyxtd/kai2_Prefix.pch -c "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/AppControl.m" -o "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/ppc/AppControl.o"0#
+
+CCompileC build/kai2.build/Release/kai2.build/Objects-normal/ppc/AppControl.o "/Volumes/KAI HARTZ/XCode Projekte/kai2/AppControl.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s397124488.389849
+e397124491.141428
+r1
+xCompileC
+xbuild/kai2.build/Release/kai2.build/Objects-normal/ppc/AppControl.o
+x/Volumes/KAI HARTZ/XCode Projekte/kai2/AppControl.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Volumes/KAI HARTZ/XCode Projekte/kai2/AppControl.m397124488#397124491#0(0"0(0#0#51"/Volumes/KAI HARTZ/XCode Projekte/kai2/AppControl.m8621336608#1101"    cd "/Volumes/KAI HARTZ/XCode Projekte/kai2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/kai2.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/include" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/DerivedSources/ppc" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-agmskjjospyyciammpbltioqskll/kai2_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/kai2/AppControl.m" -o "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/AppControl.o"0#
+
+CCompileC build/kai2.build/Release/kai2.build/Objects-normal/ppc/AppControl.o /Users/Roman/Desktop/DEV/Project/kai2/AppControl.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s396959007.674050
+e396959007.851969
+r1
+xCompileC
+xbuild/kai2.build/Release/kai2.build/Objects-normal/ppc/AppControl.o
+x/Users/Roman/Desktop/DEV/Project/kai2/AppControl.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/Roman/Desktop/DEV/Project/kai2/AppControl.m396959007#396959007#0(0"0(0#0#50"/Users/Roman/Desktop/DEV/Project/kai2/AppControl.m8617003008#1077"    cd /Users/Roman/Desktop/DEV/Project/kai2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/kai2.hmap -F/Users/Roman/Desktop/DEV/Project/kai2/build/Release -I/Users/Roman/Desktop/DEV/Project/kai2/build/Release/include -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/DerivedSources/ppc -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/DerivedSources -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-bfhnizvojfvdigdofxoyyolsqxvt/kai2_Prefix.pch -c /Users/Roman/Desktop/DEV/Project/kai2/AppControl.m -o /Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/AppControl.o0#
+
+CCompileC build/kai2.build/Release/kai2.build/Objects-normal/ppc/main.o "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s397491504.193878
+e397491504.516768
+r1
+xCompileC
+xbuild/kai2.build/Release/kai2.build/Objects-normal/ppc/main.o
+x/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/main.m397491504#397491504#0(0"0(0#0#58"/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/main.m8617857920#1193"    cd "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/kai2.hmap" "-F/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/include" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/DerivedSources/ppc" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-egrfgbsduxpqzbgqyflnpxqlyxtd/kai2_Prefix.pch -c "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/main.m" -o "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/ppc/main.o"0#
+
+CCompileC build/kai2.build/Release/kai2.build/Objects-normal/ppc/main.o "/Volumes/KAI HARTZ/XCode Projekte/kai2/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s397124488.054076
+e397124488.389771
+r1
+xCompileC
+xbuild/kai2.build/Release/kai2.build/Objects-normal/ppc/main.o
+x/Volumes/KAI HARTZ/XCode Projekte/kai2/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Volumes/KAI HARTZ/XCode Projekte/kai2/main.m397124488#397124488#0(0"0(0#0#45"/Volumes/KAI HARTZ/XCode Projekte/kai2/main.m8621834240#1089"    cd "/Volumes/KAI HARTZ/XCode Projekte/kai2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/kai2.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/include" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/DerivedSources/ppc" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/DerivedSources" -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-agmskjjospyyciammpbltioqskll/kai2_Prefix.pch -c "/Volumes/KAI HARTZ/XCode Projekte/kai2/main.m" -o "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/main.o"0#
+
+CCompileC build/kai2.build/Release/kai2.build/Objects-normal/ppc/main.o /Users/Roman/Desktop/DEV/Project/kai2/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s396959007.416991
+e396959007.673963
+r1
+xCompileC
+xbuild/kai2.build/Release/kai2.build/Objects-normal/ppc/main.o
+x/Users/Roman/Desktop/DEV/Project/kai2/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/Roman/Desktop/DEV/Project/kai2/main.m396959007#396959007#0(0"0(0#0#44"/Users/Roman/Desktop/DEV/Project/kai2/main.m8619992512#1065"    cd /Users/Roman/Desktop/DEV/Project/kai2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/kai2.hmap -F/Users/Roman/Desktop/DEV/Project/kai2/build/Release -I/Users/Roman/Desktop/DEV/Project/kai2/build/Release/include -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/DerivedSources/ppc -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/DerivedSources -include /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-bfhnizvojfvdigdofxoyyolsqxvt/kai2_Prefix.pch -c /Users/Roman/Desktop/DEV/Project/kai2/main.m -o /Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/main.o0#
+
+CCopyStringsFile "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+r0
+
+CCopyStringsFile "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+r0
+
+CCopyStringsFile /Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCreateUniversalBinary "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/MacOS/kai2" normal "ppc i386"
+s397491506.052172
+e397491506.121503
+r1
+xCreateUniversalBinary
+x/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/MacOS/kai2
+xnormal
+xppc i386
+lSLF07#2@82"CreateUniversalBinary build/Release/kai2.app/Contents/MacOS/kai2 normal "ppc i386"397491506#397491506#0(0"0(0#0#60"/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/ppc i3868615787968#421"    cd "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl"    /usr/bin/lipo -create "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2" "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2" -output "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/MacOS/kai2"0#
+
+CCreateUniversalBinary "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app/Contents/MacOS/kai2" normal "ppc i386"
+s397124492.615065
+e397124492.682072
+r1
+xCreateUniversalBinary
+x/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app/Contents/MacOS/kai2
+xnormal
+xppc i386
+lSLF07#2@82"CreateUniversalBinary build/Release/kai2.app/Contents/MacOS/kai2 normal "ppc i386"397124492#397124492#0(0"0(0#0#47"/Volumes/KAI HARTZ/XCode Projekte/kai2/ppc i3868621967168#369"    cd "/Volumes/KAI HARTZ/XCode Projekte/kai2"    /usr/bin/lipo -create "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2" "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2" -output "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app/Contents/MacOS/kai2"0#
+
+CCreateUniversalBinary /Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app/Contents/MacOS/kai2 normal "ppc i386"
+s396959009.013782
+e396959009.049271
+r1
+xCreateUniversalBinary
+x/Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app/Contents/MacOS/kai2
+xnormal
+xppc i386
+lSLF07#2@82"CreateUniversalBinary build/Release/kai2.app/Contents/MacOS/kai2 normal "ppc i386"396959009#396959009#0(0"0(0#0#46"/Users/Roman/Desktop/DEV/Project/kai2/ppc i3868615213248#357"    cd /Users/Roman/Desktop/DEV/Project/kai2    /usr/bin/lipo -create /Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2 /Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2 -output /Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app/Contents/MacOS/kai20#
+
+CGenerateDSYMFile "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app.dSYM" "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/MacOS/kai2"
+s397491506.121815
+e397491506.262175
+r1
+xGenerateDSYMFile
+x/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app.dSYM
+x/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/MacOS/kai2
+lSLF07#2@87"GenerateDSYMFile build/Release/kai2.app.dSYM build/Release/kai2.app/Contents/MacOS/kai2397491506#397491506#0(0"0(0#0#94"/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/MacOS/kai28603279104#275"    cd "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl"    /Developer/usr/bin/dsymutil "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/MacOS/kai2" -o "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app.dSYM"0#
+
+CGenerateDSYMFile "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app.dSYM" "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app/Contents/MacOS/kai2"
+s397124492.682280
+e397124495.607934
+r1
+xGenerateDSYMFile
+x/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app.dSYM
+x/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app/Contents/MacOS/kai2
+lSLF07#2@87"GenerateDSYMFile build/Release/kai2.app.dSYM build/Release/kai2.app/Contents/MacOS/kai2397124492#397124495#0(0"0(0#0#81"/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app/Contents/MacOS/kai28621758816#236"    cd "/Volumes/KAI HARTZ/XCode Projekte/kai2"    /Developer/usr/bin/dsymutil "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app/Contents/MacOS/kai2" -o "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app.dSYM"0#
+
+CGenerateDSYMFile /Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app.dSYM /Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app/Contents/MacOS/kai2
+s396959009.049382
+e396959009.203635
+r1
+xGenerateDSYMFile
+x/Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app.dSYM
+x/Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app/Contents/MacOS/kai2
+lSLF07#2@87"GenerateDSYMFile build/Release/kai2.app.dSYM build/Release/kai2.app/Contents/MacOS/kai2396959009#396959009#0(0"0(0#0#80"/Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app/Contents/MacOS/kai28606790816#227"    cd /Users/Roman/Desktop/DEV/Project/kai2    /Developer/usr/bin/dsymutil /Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app/Contents/MacOS/kai2 -o /Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app.dSYM0#
+
+CLd "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2" normal i386
+s397491505.845638
+e397491506.052017
+r1
+xLd
+x/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2
+xnormal
+xi386
+lSLF07#2@117"Link /Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2397491505#397491506#0(0"0(0#0#0"8615652768#624"    cd "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release" "-F/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release" -filelist "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -o "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2"0#
+
+CLd "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2" normal ppc
+s397491504.680431
+e397491505.224475
+r1
+xLd
+x/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2
+xnormal
+xppc
+lSLF07#2@116"Link /Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2397491504#397491505#0(0"0(0#0#0"8615719584#621"    cd "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release" "-F/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release" -filelist "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -o "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2"0#
+
+CLd "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2" normal i386
+s397124492.383848
+e397124492.614970
+r1
+xLd
+x/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2
+xnormal
+xi386
+lSLF07#2@104"Link /Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2397124492#397124492#0(0"0(0#0#0"8622744384#559"    cd "/Volumes/KAI HARTZ/XCode Projekte/kai2"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release" "-F/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release" -filelist "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -o "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2"0#
+
+CLd "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2" normal ppc
+s397124491.141714
+e397124491.779234
+r1
+xLd
+x/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2
+xnormal
+xppc
+lSLF07#2@103"Link /Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2397124491#397124491#0(0"0(0#0#0"8622669536#556"    cd "/Volumes/KAI HARTZ/XCode Projekte/kai2"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release" "-F/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release" -filelist "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -o "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2"0#
+
+CLd /Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2 normal i386
+s396959008.800254
+e396959009.013558
+r1
+xLd
+x/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2
+xnormal
+xi386
+lSLF07#2@103"Link /Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2396959008#396959009#0(0"0(0#0#0"8622085152#544"    cd /Users/Roman/Desktop/DEV/Project/kai2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/Roman/Desktop/DEV/Project/kai2/build/Release -F/Users/Roman/Desktop/DEV/Project/kai2/build/Release -filelist /Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai2.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -o /Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/i386/kai20#
+
+CLd /Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2 normal ppc
+s396959007.852053
+e396959008.411122
+r1
+xLd
+x/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2
+xnormal
+xppc
+lSLF07#2@102"Link /Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2396959007#396959008#0(0"0(0#0#0"8620015232#541"    cd /Users/Roman/Desktop/DEV/Project/kai2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/Roman/Desktop/DEV/Project/kai2/build/Release -F/Users/Roman/Desktop/DEV/Project/kai2/build/Release -filelist /Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai2.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -o /Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/Objects-normal/ppc/kai20#
+
+CProcessInfoPlistFile "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app/Contents/Info.plist" Info.plist
+r0
+
+CProcessInfoPlistFile "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app/Contents/Info.plist" Info.plist
+r0
+
+CProcessInfoPlistFile /Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app/Contents/Info.plist Info.plist
+r0
+
+CProcessPCH /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-agmskjjospyyciammpbltioqskll/kai2_Prefix.pch.gch kai2_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s397124441.629674
+e397124473.786176
+r1
+xProcessPCH
+x/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-agmskjjospyyciammpbltioqskll/kai2_Prefix.pch.gch
+xkai2_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile kai2_Prefix.pch397124441#397124473#0(0"0(0#0#54"/Volumes/KAI HARTZ/XCode Projekte/kai2/kai2_Prefix.pch7594046959161405440#997"    cd "/Volumes/KAI HARTZ/XCode Projekte/kai2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/kai2.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/include" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/DerivedSources/ppc" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/DerivedSources" -c "/Volumes/KAI HARTZ/XCode Projekte/kai2/kai2_Prefix.pch" -o /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-agmskjjospyyciammpbltioqskll/kai2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-atotibpdtcivqtekudrhyswyzcpz/kai2_Prefix.pch.gch kai2_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s396959003.717855
+e396959007.416782
+r1
+xProcessPCH
+x/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-atotibpdtcivqtekudrhyswyzcpz/kai2_Prefix.pch.gch
+xkai2_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile kai2_Prefix.pch396959003#396959007#0(0"0(0#0#53"/Users/Roman/Desktop/DEV/Project/kai2/kai2_Prefix.pch8621574304#968"    cd /Users/Roman/Desktop/DEV/Project/kai2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/kai2.hmap -F/Users/Roman/Desktop/DEV/Project/kai2/build/Release -I/Users/Roman/Desktop/DEV/Project/kai2/build/Release/include -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/DerivedSources/i386 -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/DerivedSources -c /Users/Roman/Desktop/DEV/Project/kai2/kai2_Prefix.pch -o /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-atotibpdtcivqtekudrhyswyzcpz/kai2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-bfhnizvojfvdigdofxoyyolsqxvt/kai2_Prefix.pch.gch kai2_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s396958999.871028
+e396959003.717327
+r1
+xProcessPCH
+x/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-bfhnizvojfvdigdofxoyyolsqxvt/kai2_Prefix.pch.gch
+xkai2_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile kai2_Prefix.pch396958999#396959003#0(0"0(0#0#53"/Users/Roman/Desktop/DEV/Project/kai2/kai2_Prefix.pch8620254240#976"    cd /Users/Roman/Desktop/DEV/Project/kai2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/kai2.hmap -F/Users/Roman/Desktop/DEV/Project/kai2/build/Release -I/Users/Roman/Desktop/DEV/Project/kai2/build/Release/include -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/DerivedSources/ppc -I/Users/Roman/Desktop/DEV/Project/kai2/build/kai2.build/Release/kai2.build/DerivedSources -c /Users/Roman/Desktop/DEV/Project/kai2/kai2_Prefix.pch -o /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-bfhnizvojfvdigdofxoyyolsqxvt/kai2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-egrfgbsduxpqzbgqyflnpxqlyxtd/kai2_Prefix.pch.gch kai2_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s397491497.432055
+e397491501.375586
+r1
+xProcessPCH
+x/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-egrfgbsduxpqzbgqyflnpxqlyxtd/kai2_Prefix.pch.gch
+xkai2_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile kai2_Prefix.pch397491497#397491501#0(0"0(0#0#67"/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/kai2_Prefix.pch7096108890746872832#1088"    cd "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/kai2.hmap" "-F/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/include" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/DerivedSources/ppc" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/DerivedSources" -c "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/kai2_Prefix.pch" -o /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-egrfgbsduxpqzbgqyflnpxqlyxtd/kai2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-fgfsjtkcwsdjircpekkmkcfpupzw/kai2_Prefix.pch.gch kai2_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s397491501.376084
+e397491504.193603
+r1
+xProcessPCH
+x/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-fgfsjtkcwsdjircpekkmkcfpupzw/kai2_Prefix.pch.gch
+xkai2_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile kai2_Prefix.pch397491501#397491504#0(0"0(0#0#67"/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/kai2_Prefix.pch8602668416#1080"    cd "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/kai2.hmap" "-F/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/include" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/DerivedSources/i386" "-I/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/kai2.build/Release/kai2.build/DerivedSources" -c "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/kai2_Prefix.pch" -o /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-fgfsjtkcwsdjircpekkmkcfpupzw/kai2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-gwerzotfnwjsfsbspxufajfkwunc/kai2_Prefix.pch.gch kai2_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s397124473.786729
+e397124488.053950
+r1
+xProcessPCH
+x/var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-gwerzotfnwjsfsbspxufajfkwunc/kai2_Prefix.pch.gch
+xkai2_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile kai2_Prefix.pch397124473#397124488#0(0"0(0#0#54"/Volumes/KAI HARTZ/XCode Projekte/kai2/kai2_Prefix.pch8622825888#989"    cd "/Volumes/KAI HARTZ/XCode Projekte/kai2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/kai2.hmap" "-F/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/include" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/DerivedSources/i386" "-I/Volumes/KAI HARTZ/XCode Projekte/kai2/build/kai2.build/Release/kai2.build/DerivedSources" -c "/Volumes/KAI HARTZ/XCode Projekte/kai2/kai2_Prefix.pch" -o /var/folders/3k/3k+wQDWWEnCIDGI99cUkv++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kai2_Prefix-gwerzotfnwjsfsbspxufajfkwunc/kai2_Prefix.pch.gch0#
+
+CStripNIB "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/English.lproj/MainMenu.nib"
+r0
+
+CStripNIB "/Volumes/KAI HARTZ/XCode Projekte/kai2/English.lproj/MainMenu.nib"
+r0
+
+CStripNIB /Users/Roman/Desktop/DEV/Project/kai2/English.lproj/MainMenu.nib
+r0
+
+CTouch "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app"
+s397491506.262336
+e397491506.271652
+r1
+xTouch
+x/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app
+lSLF07#2@80"Touch /Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app397491506#397491506#0(0"0(0#0#0"8615146720#160"    cd "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl"    /usr/bin/touch -c "/Users/Roman/Desktop/XCode Projekte/OS X Bilderwahl/build/Release/kai2.app"0#
+
+CTouch "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app"
+s397124495.608178
+e397124495.613924
+r1
+xTouch
+x/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app
+lSLF07#2@67"Touch /Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app397124495#397124495#0(0"0(0#0#0"8620666048#134"    cd "/Volumes/KAI HARTZ/XCode Projekte/kai2"    /usr/bin/touch -c "/Volumes/KAI HARTZ/XCode Projekte/kai2/build/Release/kai2.app"0#
+
+CTouch /Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app
+s396959009.203717
+e396959009.206923
+r1
+xTouch
+x/Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app
+lSLF07#2@66"Touch /Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app396959009#396959009#0(0"0(0#0#0"8619945280#128"    cd /Users/Roman/Desktop/DEV/Project/kai2    /usr/bin/touch -c /Users/Roman/Desktop/DEV/Project/kai2/build/Release/kai2.app0#
+
