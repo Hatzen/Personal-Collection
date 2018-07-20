@@ -1,0 +1,2014 @@
+to beenden
+ clearscreen
+ cleartext
+ keyboardoff
+ hauptmenü
+end
+
+to bg
+ pu
+ setxy -500 200
+ pd
+ rt 90
+ fd 800
+ pu
+ fd 100
+ pd
+ fd 100
+ pu
+ setxy -300 50
+ pd
+ fd 800
+ pu
+ setxy -500 50
+ pd
+ fd 100
+ pu
+ setxy -500 -100
+ pd
+ fd 800
+ pu
+ fd 100
+ pd
+ fd 100
+ pu
+ setxy -300 -250
+ pd
+ fd 800
+ pu
+ setxy -500 -250
+ pd
+ fd 100
+ pu
+ setxy 200 -99
+ pd
+ lt 90
+ polizistlinks
+end
+
+to bg2
+ pu
+ setxy -500 200
+ pd
+ rt 90
+ fd 800
+ pu
+ fd 100
+ pd
+ fd 100
+ pu
+ setxy -300 50
+ pd
+ fd 800
+ pu
+ setxy -500 50
+ pd
+ fd 100
+ pu
+ setxy -500 -100
+ pd
+ fd 1000
+ pu
+ setxy 325 -99
+ pd
+ lt 90
+ explosiv
+end
+
+to bgtutorial
+ pu
+ setxy -500 200
+ pd
+ rt 90
+ fd 800
+ pu
+ fd 100
+ pd
+ fd 100
+ pu
+ setxy -300 50
+ pd
+ fd 800
+ pu
+ setxy -500 50
+ pd
+ fd 100
+ pu
+ setxy -500 -100
+ pd
+ fd 1000
+ pu
+ setxy 200 -99
+ pd
+ lt 90
+ polizistlinks
+end
+
+to   Credits
+ wrap
+ cs
+ make "buttondelete 1
+ buttondelete "Start
+ buttondelete "Steuerung
+ buttondelete "Tutorial
+ buttondelete "Credits
+ buttondelete "Beenden
+ repeat 2500 [
+ fd 6000
+ back 5000 
+ rt 360 / 2500
+ ]
+ penup
+ setxy -40 -12.5
+ pendown
+ setpencolor [100 0 0]
+ circle 25
+ penup
+ right 155
+ forward 10
+ pendown
+ right 90
+ repeat 200 [forward 0.2 right 240/200]  
+ penup
+ home
+ pd
+ rt 90
+ label [by Kai Hartz]
+ pu
+ setxy 200 -200
+ pd
+ label [bitte entschuldigt die]
+ pu
+ setxy 200 -230
+ pd
+ label [noch vorhandenen Fehler]
+ setpencolor [0 0 0]
+ lt 90
+ window
+ buttoncreate "main "Zurück "Zurück -400 300 150 30 [Hauptmenü stop]
+end
+
+to explosion
+ setpencolor [100 0 0]
+ setpensize [120 120]
+ fd 10
+ setpensize [1 1]
+ setpencolor [0 0 0]
+end
+
+to explosionlöschen
+ setpencolor [150 150 150]
+ setpensize [140 140]
+ fd 10
+ setpensize [1 1]
+ setpencolor [0 0 0]
+end
+
+to explosiv
+ forward 75
+ rt 90
+ fd 75
+ rt 90
+ fd 75
+ rt 90
+ fd 75 
+ rt 125
+ pu
+ fd 10
+ setfloodcolor [100 0 0]
+ fill
+ fd 5
+ pd
+ label [Explosiv]
+ pu
+ bk 15
+ lt 35
+ pd
+end
+
+to hauptmenü
+ window
+ setscreencolor [150 150 150]
+ hideturtle
+ cs
+ if :buttondelete=1 [buttondelete "Zurück make "buttondelete 0]
+ buttoncreate "main "Start "Start -400 300 150 30 [start]
+ buttoncreate "main "Steuerung "Steuerung -400 250 150 30 [steuerung]
+ buttoncreate "main "Tutorial "Tutorial -400 200 150 30 [tutorial]
+ buttoncreate "main "Credits "Credits -400 150 150 30 [Credits]
+ buttoncreate "main "Beenden "Beenden -400 100 150 30 [Bye]
+ pu
+ setxy 300 300
+ pd
+ rt 90
+ setpencolor [100 0 0]
+ label [Prison Break]
+ setpencolor [0 0 0]
+ lt 90
+ pu
+ setxy 0 -149
+ pd
+ kugel
+ pu
+ setxy -300 -200
+ pd
+ polizistlinks
+ pu
+ setxy 200 -200
+ pd
+ männchen3links
+end
+
+to hoch
+ ifelse :schussrichtung=2 [männchen3linkslöschen] [männchen3löschen]
+ pu
+ fd 90
+ pd
+ männchen4
+ wait 30
+ männchen4löschen
+ pu
+ fd 60
+ pd
+ männchen3links
+end
+
+to hochlinks
+ ifelse :schussrichtung=1 [männchen3linkslöschen] [männchen3löschen]
+ pu
+ fd 90
+ pd
+ männchen4links
+ wait 30
+ männchen4linkslöschen
+ pu
+ fd 60
+ pd
+ männchen3
+end
+
+to ki
+ pu
+ setxy 200 -99
+ pd
+ polizistlinks
+ schusslinkspolizei
+end
+
+to korrektur
+ setxy round xcor ycor 
+end
+
+to kugel
+ circle 2.5
+ setfloodcolor [150 150 150]
+ fill
+end
+
+to kugellöschen
+ setpencolor [150 150 150]
+ circle 2.5
+ setfloodcolor [150 150 150]
+ fill
+ setpencolor [0 0 0]
+end
+
+to level2
+ make "runter 0
+ bg2
+ pu
+ setxy -400 201
+ pd
+ männchen3
+end 
+
+to level3
+ make "runter 0
+ bg
+ pu
+ setxy 120 -99
+ pd
+ polizistrechts
+ pu
+ setxy -400 201
+ pd
+ männchen3
+end
+
+to level4
+ make "runter 0
+ bg2
+ pu
+ setxy 200 -99
+ pd
+ polizistlinks
+ pu
+ setxy -400 201
+ pd
+ männchen3
+end
+
+to männchen
+ rt 90
+ fd 5
+ bk 5
+ lt 90
+ fd 15
+ lt 45
+ fd 15
+ lt 90
+ fd 20
+ rt 90
+ fd 15
+ lt 90
+ fd 5
+ bk 5
+ rt 90
+ bk 15
+ lt 90
+ bk 20
+ ;oberkörper
+ rt 145
+ fd 25
+ rt 120
+ fd 25
+ bk 25
+ lt 40
+ fd 25
+ ;pistole
+ lt 90
+ fd 5
+ rt 90
+ fd 15
+ rt 90
+ fd 5
+ rt 90
+ fd 10
+ lt 90
+ fd 5
+ rt 90
+ fd 5
+ rt 90
+ fd 5
+ pu
+ rt 90
+ fd 3
+ setfloodcolor [100 100 100]
+ fill
+ pd
+ bk 3
+ ;pistole  ende
+ bk 25
+ lt 80
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [255 228 225]
+ fill
+ pu
+ bk 10
+ pd
+ ;zurück
+ bk 25
+ rt 125
+ fd 15
+ rt 45
+ fd 15
+ lt 180
+end
+
+to männchen2
+ lt 90
+ pu
+ fd 7
+ pd
+ fd 5
+ rt 110
+ fd 15
+ lt 60
+ fd 15
+ lt 110
+ fd 15
+ rt 45
+ fd 15
+ lt 90
+ fd 5
+ bk 5
+ rt 90
+ bk 15
+ lt 45
+ bk 15
+ ;oberkörper
+ rt 160
+ fd 25
+ rt 120
+ fd 25
+ bk 25
+ lt 40
+ fd 25
+ ;pistole
+ lt 90
+ fd 5
+ rt 90
+ fd 15
+ rt 90
+ fd 5
+ rt 90
+ fd 10
+ lt 90
+ fd 5
+ rt 90
+ fd 5
+ rt 90
+ fd 5
+ pu
+ rt 90
+ fd 3
+ setfloodcolor [100 100 100]
+ fill
+ pd
+ bk 3
+ ;pistole  ende
+ bk 25
+ lt 80
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [255 228 225]
+ fill
+ pu
+ bk 10
+ pd
+ ;zurück
+ bk 25
+ rt 130
+ fd 15
+ rt 60
+ fd 15
+ lt 110
+ fd 5
+ pu
+ fd 7
+ lt 90
+ pd
+end
+
+to männchen2links
+ rt 90
+ pu
+ fd 7
+ pd
+ fd 5
+ lt 110
+ fd 15
+ rt 60
+ fd 15
+ rt 110
+ fd 15
+ lt 45
+ fd 15
+ rt 90
+ fd 5
+ bk 5
+ lt 90
+ bk 15
+ rt 45
+ bk 15
+ ;oberkörper
+ lt 160
+ fd 25
+ lt 120
+ fd 25
+ bk 25
+ rt 40
+ fd 25
+ ;pistole
+ rt 90
+ fd 5
+ lt 90
+ fd 15
+ lt 90
+ fd 5
+ lt 90
+ fd 10
+ rt 90
+ fd 5
+ lt 90
+ fd 5
+ lt 90
+ fd 5
+ pu
+ lt 90
+ fd 3
+ setfloodcolor [100 100 100]
+ fill
+ pd
+ bk 3
+ ;pistole ende
+ bk 25
+ rt 80
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [255 228 225]
+ fill
+ pu
+ bk 10
+ pd
+ ;zurück
+ bk 25
+ lt 130
+ fd 15
+ lt 60
+ fd 15
+ rt 110
+ fd 5
+ pu
+ fd 7
+ rt 90
+ pd
+end
+
+to männchen2linkslöschen
+ setpencolor [150 150 150]
+ rt 90
+ pu
+ fd 7
+ pd
+ fd 5
+ lt 110
+ fd 15
+ rt 60
+ fd 15
+ rt 110
+ fd 15
+ lt 45
+ fd 15
+ rt 90
+ fd 5
+ bk 5
+ lt 90
+ bk 15
+ rt 45
+ bk 15
+ ;oberkörper
+ lt 160
+ fd 25
+ lt 120
+ fd 25
+ bk 25
+ rt 40
+ fd 25
+ ;pistole
+ rt 90
+ fd 5
+ lt 90
+ fd 15
+ lt 90
+ fd 5
+ lt 90
+ fd 10
+ rt 90
+ fd 5
+ lt 90
+ fd 5
+ lt 90
+ fd 5
+ pu
+ lt 90
+ fd 3
+ rt 90
+ fd 3
+ setfloodcolor [150 150 150]
+ fill
+ bk 3
+ lt 90
+ pd
+ bk 3
+ ;pistole ende
+ bk 25
+ rt 80
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [150 150 150]
+ fill
+ pu
+ bk 10
+ pd
+ ;zurück
+ bk 25
+ lt 130
+ fd 15
+ lt 60
+ fd 15
+ rt 110
+ fd 5
+ pu
+ fd 7
+ rt 90
+ pd
+ setpencolor [0 0 0]
+end
+
+to männchen2löschen
+ setpencolor [150 150 150]
+ lt 90
+ pu
+ fd 7
+ pd
+ fd 5
+ rt 110
+ fd 15
+ lt 60
+ fd 15
+ lt 110
+ fd 15
+ rt 45
+ fd 15
+ lt 90
+ fd 5
+ bk 5
+ rt 90
+ bk 15
+ lt 45
+ bk 15
+ ;oberkörper
+ rt 160
+ fd 25
+ rt 120
+ fd 25
+ bk 25
+ lt 40
+ fd 25
+ ;pistole
+ lt 90
+ fd 5
+ rt 90
+ fd 15
+ rt 90
+ fd 5
+ rt 90
+ fd 10
+ lt 90
+ fd 5
+ rt 90
+ fd 5
+ rt 90
+ fd 5
+ pu
+ rt 90
+ fd 3
+ lt 90
+ fd 3
+ setfloodcolor [150 150 150]
+ fill
+ bk 3
+ rt 90
+ pd
+ bk 3
+ ;pistole  ende
+ bk 25
+ lt 80
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [150 150 150]
+ fill
+ pu
+ bk 10
+ pd
+ ;zurück
+ bk 25
+ rt 130
+ fd 15
+ rt 60
+ fd 15
+ lt 110
+ fd 5
+ pu
+ fd 7
+ lt 90
+ pd
+ setpencolor [0 0 0]
+end
+
+to männchen3
+ lt 90
+ fd 5
+ rt 65
+ fd 25
+ lt 130
+ fd 25
+ lt 115
+ fd 5
+ bk 5
+ rt 115
+ bk 25
+ rt 155
+ fd 25
+ rt 90
+ fd 25
+ ;pistole
+ lt 90
+ fd 5
+ rt 90
+ fd 15
+ rt 90
+ fd 5
+ rt 90
+ fd 10
+ lt 90
+ fd 5
+ rt 90
+ fd 5
+ rt 90
+ fd 5
+ pu
+ rt 90
+ fd 3
+ setfloodcolor [100 100 100]
+ fill
+ pd
+ bk 3
+ ;pistole  ende
+ bk 25
+ rt 20
+ fd 25
+ bk 25
+ lt 110
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [255 228 225]
+ fill
+ pu
+ bk 35
+ pd
+ rt 155
+ fd 25
+ lt 65
+ fd 5
+ left 90
+end
+
+to männchen3links
+ rt 90
+ fd 5
+ lt 65
+ fd 25
+ rt 130
+ fd 25
+ rt 115
+ fd 5
+ bk 5
+ lt 115
+ bk 25
+ lt 155
+ fd 25
+ lt 90
+ fd 25
+ ;pistole
+ rt 90
+ fd 5
+ lt 90
+ fd 15
+ lt 90
+ fd 5
+ lt 90
+ fd 10
+ rt 90
+ fd 5
+ lt 90
+ fd 5
+ lt 90
+ fd 5
+ pu
+ lt 90
+ fd 3
+ setfloodcolor [100 100 100]
+ fill
+ pd
+ bk 3
+ ;pistole ende
+ bk 25
+ lt 20
+ fd 25
+ bk 25
+ rt 110
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [255 228 225]
+ fill
+ pu
+ bk 35
+ pd
+ lt 155
+ fd 25
+ rt 65
+ fd 5
+ rt 90
+end
+
+to männchen3linkslöschen
+ setpencolor [150 150 150]
+ rt 90
+ fd 5
+ lt 65
+ fd 25
+ rt 130
+ fd 25
+ rt 115
+ fd 5
+ bk 5
+ lt 115
+ bk 25
+ lt 155
+ fd 25
+ lt 90
+ fd 25
+ ;pistole
+ rt 90
+ fd 5
+ lt 90
+ fd 15
+ lt 90
+ fd 5
+ lt 90
+ fd 10
+ rt 90
+ fd 5
+ lt 90
+ fd 5
+ lt 90
+ fd 5
+ pu
+ lt 90
+ fd 3
+ rt 90
+ fd 3
+ setfloodcolor [150 150 150]
+ fill
+ bk 3
+ lt 90
+ pd
+ bk 3
+ ;pistole ende
+ bk 25
+ lt 20
+ fd 25
+ bk 25
+ rt 110
+ pu
+ fd 10
+ pd
+ setpensize [30 30]
+ fd 1
+ bk 1
+ setpensize [1 1]
+ pu
+ bk 35
+ pd
+ lt 155
+ fd 25
+ rt 65
+ fd 5
+ rt 90
+ setpencolor [0 0 0]
+end
+
+to männchen3löschen
+ setpencolor [150 150 150]
+ lt 90
+ fd 5
+ rt 65
+ fd 25
+ lt 130
+ fd 25
+ lt 115
+ fd 5
+ bk 5
+ rt 115
+ bk 25
+ rt 155
+ fd 25
+ rt 90
+ fd 25
+ ;pistole
+ lt 90
+ fd 5
+ rt 90
+ fd 15
+ rt 90
+ fd 5
+ rt 90
+ fd 10
+ lt 90
+ fd 5
+ rt 90
+ fd 5
+ rt 90
+ fd 5
+ pu
+ rt 90
+ fd 4
+ setfloodcolor [150 150 150]
+ fill
+ pd
+ bk 4
+ ;pistole  ende
+ bk 25
+ rt 20
+ fd 25
+ bk 25
+ lt 110
+ pu
+ fd 10
+ pd
+ setpensize [30 30]
+ fd 1
+ bk 1
+ setpensize [1 1]
+ pu
+ bk 35
+ pd
+ rt 155
+ fd 25
+ lt 65
+ fd 5
+ left 90
+ setpencolor [0 0 0]
+end
+
+to männchen4
+ lt 90
+ fd 5
+ rt 65
+ fd 25
+ lt 130
+ fd 25
+ lt 115
+ fd 5
+ bk 5
+ rt 115
+ bk 25
+ rt 155
+ fd 25
+ rt 65
+ fd 25
+ bk 25
+ lt 65
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [255 228 225]
+ fill
+ pu
+ bk 35
+ pd
+ rt 155
+ fd 25
+ lt 65
+ fd 5
+ left 90
+end
+
+to männchen4links
+ rt 90
+ fd 5
+ lt 65
+ fd 25
+ rt 130
+ fd 25
+ rt 115
+ fd 5
+ bk 5
+ lt 115
+ bk 25
+ lt 155
+ fd 25
+ lt 65
+ fd 25
+ bk 25
+ rt 65
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [255 228 225]
+ fill
+ pu
+ bk 35
+ pd
+ lt 155
+ fd 25
+ rt 65
+ fd 5
+ rt 90
+end
+
+to männchen4linkslöschen
+ setpencolor [150 150 150]
+ rt 90
+ fd 5
+ lt 65
+ fd 25
+ rt 130
+ fd 25
+ rt 115
+ fd 5
+ bk 5
+ lt 115
+ bk 25
+ lt 155
+ fd 25
+ lt 65
+ fd 25
+ bk 25
+ rt 65
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [150 150 150]
+ fill
+ pu
+ bk 35
+ pd
+ lt 155
+ fd 25
+ rt 65
+ fd 5
+ rt 90
+ setpencolor [0 0 0]
+end
+
+to männchen4löschen
+ setpencolor [150 150 150]
+ lt 90
+ fd 5
+ rt 65
+ fd 25
+ lt 130
+ fd 25
+ lt 115
+ fd 5
+ bk 5
+ rt 115
+ bk 25
+ rt 155
+ fd 25
+ rt 65
+ fd 25
+ bk 25
+ lt 65
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [150 150 150]
+ fill
+ pu
+ bk 35
+ pd
+ rt 155
+ fd 25
+ lt 65
+ fd 5
+ left 90
+ setpencolor [0 0 0]
+end 
+
+to männchenla :zeichen
+ local "taste
+ make "taste char :zeichen
+ if :taste = "r [make "munition 1 pu setxy -145 -275 pd rt 90 setpencolor [150 150 150] setpensize [45 45] fd 50 bk 50 setpensize [1 1] setpencolor [0 0 0] label [Ja] lt 90 pu setxy :xcormännchen :ycormännchen pd ]
+ if :taste = "d [ifelse :runter=1050 [] [männchenlaufen]]
+ if :taste = "a [ifelse :runter=150 [] [männchenlaufenlinks]]
+ if :zeichen=32 [if :munition=1 [ifelse :schussrichtung=1 [schuss] [if :schussrichtung=2 [schusslinks]]]]
+ if :taste = "s [ifelse :runter=1050 [runterlinks] [if :runter=150 [runter]]]
+ if :taste = "w [ifelse :runter=1050 [hochlinks] [if :runter=150 [hoch]]]
+ if :zeichen =27 [beenden]
+ if :ycormännchen<-97 [if :xcormännchen=-290 [if :kiaus=0 [ki]]]
+end
+
+to männchenlatutorial :zeichen
+ local "taste
+ make "taste char :zeichen
+if :taste = "r [make "munition 1 pu setxy -145 -275 pd rt 90 setpencolor [150 150 150] setpensize [45 45] fd 50 bk 50 setpensize [1 1] setpencolor [0 0 0] label [Ja] lt 90 pu setxy :xcormännchen :ycormännchen pd ]
+ if :taste = "d [ifelse :runter=1050 [] [männchenlaufentutorial]]
+ if :taste = "a [ifelse :runter=150 [] [männchenlaufenlinkstutorial]]
+ if :zeichen=32 [ifelse :schussrichtung=1 [schuss] [if :schussrichtung=2 [schusslinks]]]
+ if :taste = "s [ifelse :runter=1050 [runterlinkstutorial] [if :runter=150 [runter]]]
+ if :taste = "w [ifelse :runter=1050 [hochlinks] [if :runter=150 [hoch]]]
+ if :zeichen =27 [beenden]
+end
+
+to männchenlau
+ cleartext
+ hideturtle
+ keyboardon [männchenla keyboardvalue]
+ setfocus [MSWLogo Screen]
+end
+
+to männchenlaufen
+ make "schussrichtung 1
+ repeat 1 [männchen3löschen männchen3linkslöschen männchen wait 10 männchenlöschen pu rt 90 fd 2.5 lt 90 pd männchen2 wait 10 männchen2löschen  pu rt 90 fd 2.5 lt 90 pd ]
+ männchen3 make "runter :runter+15 make "xcormännchen xcor make "ycormännchen ycor
+ if :boom=1 [pu setxy :xcorboom+5 :ycorboom-5 pd explosionlöschen pu setxy :xcormännchen :ycormännchen pd make "boom 0]
+end
+
+to männchenlaufenlinks
+ make "schussrichtung 2
+ repeat 1 [männchen3linkslöschen männchen3löschen männchenlinks wait 10 männchenlinkslöschen pu lt 90 fd 5 rt 90 pd männchen2links wait 10 männchen2linkslöschen  pu lt 90 fd 5 rt 90 pd ]
+ männchen3links make "runter :runter-15 make "xcormännchen xcor make "ycormännchen ycor
+ if :boom=1 [pu setxy :xcorboom+5 :ycorboom-5 pd explosionlöschen pu setxy :xcormännchen :ycormännchen pd make "boom 0]
+end
+
+to männchenlaufenlinkstutorial
+ make "schussrichtung 2
+ repeat 1 [männchen3linkslöschen männchen3löschen männchenlinks wait 10 männchenlinkslöschen pu lt 90 fd 5 rt 90 pd männchen2links wait 10 männchen2linkslöschen  pu lt 90 fd 5 rt 90 pd ]
+ männchen3links make "runter :runter-15 make "xcormännchen xcor make "ycormännchen ycor
+end
+
+to männchenlaufentutorial
+ make "schussrichtung 1
+ repeat 1 [männchen3löschen männchen3linkslöschen männchen wait 10 männchenlöschen pu rt 90 fd 2.5 lt 90 pd männchen2 wait 10 männchen2löschen  pu rt 90 fd 2.5 lt 90 pd ]
+ männchen3 make "runter :runter+15 make "xcormännchen xcor make "ycormännchen ycor
+ if :xcormännchen>200 [pu setxy -160 -150 pd rt 90 label [Drücke am Abgrund "S", um herunter zu klettern] lt 90 pu setxy :xcormännchen :ycormännchen pd]
+ if :ycormännchen<-97 [if :xcormännchen=-290 [pu setxy -160 -210 pd rt 90 label [Drücke nun "LEERTASTE", um die Ki zu töten] lt 90 pu setxy :xcormännchen :ycormännchen pd]]
+ if :ycormännchen<-97 [if :xcormännchen=-290 [pu setxy 0 -240 pd rt 90 label [Drücke nach dem Schuss "R", um nachzuladen] lt 90 pu setxy :xcormännchen :ycormännchen pd]]
+ if :kiaus=1 [pu setxy 0 -275 pd rt 90 label [Drücke nun "ESCAPE", um das Tutorial zu beenden] lt 90 pu setxy :xcormännchen :ycormännchen pd]
+end
+
+to männchenlaututorial
+ cleartext
+ hideturtle
+ keyboardon [männchenlatutorial keyboardvalue]
+ setfocus [MSWLogo Screen]
+end
+
+to männchenlinks
+ korrektur
+ lt 90
+ fd 5
+ bk 5
+ rt 90
+ fd 15
+ rt 45
+ fd 15
+ rt 90
+ fd 20
+ lt 90
+ fd 15
+ rt 90
+ fd 5
+ bk 5
+ lt 90
+ bk 15
+ rt 90
+ bk 20
+ ;oberkörper
+ lt 145
+ fd 25
+ lt 120
+ fd 25
+ bk 25
+ rt 40
+ fd 25
+ ;pistole
+ rt 90
+ fd 5
+ lt 90
+ fd 15
+ lt 90
+ fd 5
+ lt 90
+ fd 10
+ rt 90
+ fd 5
+ lt 90
+ fd 5
+ lt 90
+ fd 5
+ pu
+ lt 90
+ fd 3
+ setfloodcolor [100 100 100]
+ fill
+ pd
+ bk 3
+ ;pistole  ende
+ bk 25
+ rt 80
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [255 228 225]
+ fill
+ pu
+ bk 10
+ pd
+ ;zurück
+ bk 25
+ lt 125
+ fd 15
+ lt 45
+ fd 15
+ rt 180
+end
+
+to männchenlinkslöschen
+ setpencolor [150 150 150]
+ lt 90
+ fd 5
+ bk 5
+ rt 90
+ fd 15
+ rt 45
+ fd 15
+ rt 90
+ fd 20
+ lt 90
+ fd 15
+ rt 90
+ fd 5
+ bk 5
+ lt 90
+ bk 15
+ rt 90
+ bk 20
+ ;oberkörper
+ lt 145
+ fd 25
+ lt 120
+ fd 25
+ bk 25
+ rt 40
+ fd 25
+ ;pistole
+ rt 90
+ fd 5
+ lt 90
+ fd 15
+ lt 90
+ fd 5
+ lt 90
+ fd 10
+ rt 90
+ fd 5
+ lt 90
+ fd 5
+ lt 90
+ fd 5
+ pu
+ lt 90
+ fd 3
+ rt 90
+ fd 3
+ setfloodcolor [150 150 150]
+ fill
+ bk 3
+ lt 90
+ pd
+ bk 3
+ ;pistole  ende
+ bk 25
+ rt 80
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [150 150 150]
+ fill
+ pu
+ bk 10
+ pd
+ ;zurück
+ bk 25
+ lt 125
+ fd 15
+ lt 45
+ fd 15
+ rt 180
+ setpencolor [0 0 0]
+end
+
+to männchenlöschen
+ setpencolor [150 150 150]
+ rt 90
+ fd 5
+ bk 5
+ lt 90
+ fd 15
+ lt 45
+ fd 15
+ lt 90
+ fd 20
+ rt 90
+ fd 15
+ lt 90
+ fd 5
+ bk 5
+ rt 90
+ bk 15
+ lt 90
+ bk 20
+ ;oberkörper
+ rt 145
+ fd 25
+ rt 120
+ fd 25
+ bk 25
+ lt 40
+ fd 25
+ ;pistole
+ lt 90
+ fd 5
+ rt 90
+ fd 15
+ rt 90
+ fd 5
+ rt 90
+ fd 10
+ lt 90
+ fd 5
+ rt 90
+ fd 5
+ rt 90
+ fd 5
+ pu
+ rt 90
+ fd 3
+ lt 90
+ fd 3
+ setfloodcolor [150 150 150]
+ fill
+ bk 3
+ rt 90
+ pd
+ bk 3
+ ;pistole  ende
+ bk 25
+ lt 80
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [150 150 150]
+ fill
+ pu
+ bk 10
+ pd
+ ;zurück
+ pu
+ bk 25
+ rt 125
+ fd 15
+ rt 45
+ fd 15
+ lt 90
+ fd 5
+ lt 90
+ setpencolor [ 0 0 0]
+end 
+
+to Polizistlinks
+ rt 90
+ fd 5
+ lt 65
+ fd 25
+ rt 130
+ fd 25
+ rt 115
+ fd 5
+ bk 5
+ lt 115
+ bk 25
+ lt 155
+ fd 25
+ lt 90
+ fd 25
+ ;pistole
+ rt 90
+ fd 5
+ lt 90
+ fd 15
+ lt 90
+ fd 5
+ lt 90
+ fd 10
+ rt 90
+ fd 5
+ lt 90
+ fd 5
+ lt 90
+ fd 5
+ pu
+ lt 90
+ fd 3
+ setfloodcolor [100 100 100]
+ fill
+ pd
+ bk 3
+ ;pistole ende
+ bk 25
+ lt 20
+ fd 25
+ bk 25
+ rt 110
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [255 228 225]
+ fill
+ pu
+ fd 5
+ pd
+ rt 90
+ fd 10
+ lt 90
+ fd 15
+ lt 90
+ fd 17
+ lt 90
+ fd 10
+ rt 90
+ fd 13
+ lt 90
+ fd 5
+ lt 90
+ fd 20
+ lt 90
+ pu
+ fd 4
+ setfloodcolor [0 0 100]
+ fill
+ fd 3
+ setfloodcolor [0 0 100]
+ fill
+ bk 47
+ pd
+ lt 155
+ fd 25
+ rt 65
+ fd 5
+ rt 90
+end
+
+to Polizistlinkslöschen
+ setpencolor [150 150 150]
+ rt 90
+ fd 5
+ lt 65
+ fd 25
+ rt 130
+ fd 25
+ rt 115
+ fd 5
+ bk 5
+ lt 115
+ bk 25
+ lt 155
+ fd 25
+ lt 90
+ fd 25
+ ;pistole
+ rt 90
+ fd 5
+ lt 90
+ fd 15
+ lt 90
+ fd 5
+ lt 90
+ fd 10
+ rt 90
+ fd 5
+ lt 90
+ fd 5
+ lt 90
+ setpensize [40 40]
+ fd 5
+ lt 90
+ fd 3
+ setpensize [1 1]
+ setfloodcolor [150 150 150]
+ fill
+ bk 3
+ ;pistole ende
+ bk 25
+ lt 20
+ fd 25
+ bk 25
+ rt 110
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [150 150 150]
+ fill
+ setpensize [64 64]
+ fd 1
+ bk 1
+ setpensize [1 1]
+ pu
+ fd 5
+ pd
+ rt 90
+ fd 10
+ lt 90
+ fd 15
+ lt 90
+ fd 17
+ lt 90
+ fd 10
+ rt 90
+ fd 13
+ lt 90
+ fd 5
+ lt 90
+ fd 20
+ lt 90
+ pu
+ fd 4
+ setfloodcolor [150 150 150]
+ fill
+ fd 3
+ bk 47
+ pd
+ lt 155
+ fd 25
+ rt 65
+ fd 5
+ rt 90
+ setpencolor [0 0 0]
+end
+
+to Polizistrechts
+ lt 90
+ fd 5
+ rt 65
+ fd 25
+ lt 130
+ fd 25
+ lt 115
+ fd 5
+ bk 5
+ rt 115
+ bk 25
+ rt 155
+ fd 25
+ rt 90
+ fd 25
+ ;pistole
+ lt 90
+ fd 5
+ rt 90
+ fd 15
+ rt 90
+ fd 5
+ rt 90
+ fd 10
+ lt 90
+ fd 5
+ rt 90
+ fd 5
+ rt 90
+ fd 5
+ pu
+ rt 90
+ fd 3
+ setfloodcolor [100 100 100]
+ fill
+ pd
+ bk 3
+ ;pistole ende
+ bk 25
+ rt 20
+ fd 25
+ bk 25
+ lt 110
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [255 228 225]
+ fill
+ pu
+ fd 5
+ pd
+ lt 90
+ fd 10
+ rt 90
+ fd 15
+ rt 90
+ fd 17
+ rt 90
+ fd 10
+ lt 90
+ fd 13
+ rt 90
+ fd 5
+ rt 90
+ fd 20
+ rt 90
+ pu
+ fd 4
+ setfloodcolor [0 0 100]
+ fill
+ fd 3
+ setfloodcolor [0 0 100]
+ fill
+ bk 47
+ pd
+ rt 155
+ fd 25
+ lt 65
+ fd 5
+ lt 90
+end
+
+to Polizistrechtslöschen
+ setpencolor [150 150 150]
+ lt 90
+ fd 5
+ rt 65
+ fd 25
+ lt 130
+ fd 25
+ lt 115
+ fd 5
+ bk 5
+ rt 115
+ bk 25
+ rt 155
+ fd 25
+ rt 90
+ fd 25
+ ;pistole
+ lt 90
+ fd 5
+ rt 90
+ fd 15
+ rt 90
+ fd 5
+ rt 90
+ fd 10
+ lt 90
+ fd 5
+ rt 90
+ fd 5
+ rt 90
+ fd 5
+ pu
+ rt 90
+ fd 3
+ setfloodcolor [150 150 150]
+ fill
+ pd
+ bk 3
+ ;pistole ende
+ bk 25
+ rt 20
+ fd 25
+ bk 25
+ lt 110
+ pu
+ fd 10
+ pd
+ circle 10
+ setfloodcolor [150 150 150]
+ fill
+ pu
+ fd 5
+ pd
+ lt 90
+ fd 10
+ rt 90
+ fd 15
+ rt 90
+ fd 17
+ rt 90
+ fd 10
+ lt 90
+ fd 13
+ rt 90
+ fd 5
+ rt 90
+ fd 20
+ rt 90
+ pu
+ fd 4
+ setfloodcolor [150 150 150]
+ fill
+ fd 3
+ setfloodcolor [150 150 150]
+ fill
+ bk 47
+ pd
+ rt 155
+ fd 25
+ lt 65
+ fd 5
+ lt 90
+ setpencolor [0 0 0]
+end
+
+to runter
+ make "schussrichtung 1
+ männchen3linkslöschen
+ pu
+ bk 60
+ pd
+ männchen4
+ wait 30
+ männchen4löschen
+ pu
+ bk 90
+ pd
+ männchen3
+ make "ycormännchen ycor
+ make "xcormännchen xcor
+ if :ycormännchen<-398 [if :level2=0 [make "level2 1 level2]]
+ if :ycormännchen<-398 [if :level2=1 [if :boomaus=1 [make "kiaus 0 make "level2 2 level3]]]
+ if :ycormännchen<-398 [if :level2=2 [if :kiaus=1 [make "kiaus 0 make "boomaus 0 make "level2 3 level4]]]
+end
+
+to runterlinks
+ make "schussrichtung 2
+ männchen3löschen
+ pu
+ bk 60
+ pd
+ männchen4links
+ wait 30
+ männchen4linkslöschen
+ pu
+ bk 90
+ pd
+ männchen3links
+ make "ycormännchen ycor
+ make "xcormännchen xcor
+end
+
+to runterlinkstutorial
+ make "schussrichtung 1
+ männchen3löschen
+ pu
+ bk 60
+ pd
+ männchen4links
+ wait 30
+ männchen4linkslöschen
+ pu
+ bk 90
+ pd
+ männchen3links
+ make "xcormännchen xcor
+ make "ycormännchen ycor
+ if :ycormännchen<52 [pu setxy -160 -180 pd rt 90 label [Drücke nun "W", um rauf zu klettern] lt 90 pu setxy :xcormännchen :ycormännchen pd]
+end
+
+to runtertutorial
+ make "schussrichtung 2
+ männchen3linkslöschen
+ pu
+ bk 60
+ pd
+ männchen4
+ wait 30
+ männchen4löschen
+ pu
+ bk 90
+ pd
+ männchen3
+ make "xcormännchen xcor
+ make "ycormännchen ycor
+ if :ycormännchen<52 [pu setxy -160 -180 pd rt 90 label [Drücke nun "W", um rauf zu klettern] lt 90 pu setxy :xcormännchen :ycormännchen pd]
+end
+
+to schuss
+ make "munition 0
+ pu
+ fd 51
+ rt 90
+ fd 32
+ pd
+ repeat 51 [kugel wait 2 kugellöschen pu fd 10 pd make "treffermännchen1 xcor make "treffermännchen2 ycor 
+  if :level2=1 [if :treffermännchen1>340 [if :treffermännchen2<-47 [if :boomaus=0 [make "boomaus 1 make "xcorboom xcor make "ycorboom ycor explosion lt 90 pu setxy :xcormännchen :ycormännchen pd make "boom 1   pu setxy -145 -275 pd rt 90 setpencolor [150 150 150] setpensize [45 45] fd 50 bk 50 setpensize [1 1] setpencolor [0 0 0] label [Nein] lt 90 pu setxy :xcormännchen :ycormännchen pd    stop ]]]]
+  if :treffermännchen1>199 [if :treffermännchen2<-47 [ifelse :level2=0 [lt 90 pu setxy 200 -99 pd polizistlinkslöschen pu setxy 120 -99 pd polizistrechtslöschen  pu setxy -300 -99.000002 pd make "kiaus 1    pu setxy -145 -275 pd rt 90 setpencolor [150 150 150] setpensize [45 45] fd 50 bk 50 setpensize [1 1] setpencolor [0 0 0] label [Nein] lt 90 pu setxy :xcormännchen :ycormännchen pd    stop ] [if :level2=2 [lt 90 pu setxy 200 -99 pd polizistlinkslöschen pu setxy 120 -99 pd polizistrechtslöschen  pu setxy -300 -99.000002 pd make "kiaus 1    pu setxy -145 -275 pd rt 90 setpencolor [150 150 150] setpensize [45 45] fd 50 bk 50 setpensize [1 1] setpencolor [0 0 0] label [Nein] lt 90 pu setxy :xcormännchen :ycormännchen pd    stop ]]]]
+  if :level2=3 [if :treffermännchen1>340 [if :treffermännchen2<-47 [if :boomaus=0 [make "boomaus 1 make "xcorboom xcor make "ycorboom ycor explosion lt 90 pu setxy :xcormännchen :ycormännchen pd make "boom 1   pu setxy -145 -275 pd rt 90 setpencolor [150 150 150] setpensize [45 45] fd 50 bk 50 setpensize [1 1] setpencolor [0 0 0] label [Nein] lt 90 pu setxy :xcormännchen :ycormännchen pd    stop ]]]]
+  if :treffermännchen1>199 [if :treffermännchen2<-47 [if :kiaus=0  [ifelse :level2=3 [lt 90 pu setxy 200 -99 pd polizistlinkslöschen pu setxy 120 -99 pd polizistrechtslöschen  pu setxy -300 -99.000002 pd make "kiaus 1    pu setxy -145 -275 pd rt 90 setpencolor [150 150 150] setpensize [45 45] fd 50 bk 50 setpensize [1 1] setpencolor [0 0 0] label [Nein] lt 90 pu setxy :xcormännchen :ycormännchen pd    stop ] [if :level2=2 [lt 90 pu setxy 200 -99 pd polizistlinkslöschen pu setxy 120 -99 pd polizistrechtslöschen  pu setxy -300 -99.000002 pd make "kiaus 1    pu setxy -145 -275 pd rt 90 setpencolor [150 150 150] setpensize [45 45] fd 50 bk 50 setpensize [1 1] setpencolor [0 0 0] label [Nein] lt 90 pu setxy :xcormännchen :ycormännchen pd    stop ]]]]]]
+ pu
+ bk 542
+ rt 90
+ fd 51
+ rt 180
+ pd
+ pu setxy -145 -275 pd rt 90 setpencolor [150 150 150] setpensize [45 45] fd 50 bk 50 setpensize [1 1] setpencolor [0 0 0] label [Nein] lt 90 pu setxy :xcormännchen :ycormännchen pd
+end
+
+to schusslinks
+ make "munition 0
+ pu
+ fd 51
+ lt 90
+ fd 32
+ pd
+ repeat 50 [kugel wait 2 kugellöschen pu fd 10 pd]
+ pu
+ bk 532
+ lt 90
+ fd 51
+ rt 180
+ pd
+ pu setxy -145 -275 pd rt 90 setpencolor [150 150 150] setpensize [45 45] fd 50 bk 50 setpensize [1 1] setpencolor [0 0 0] label [Nein] lt 90 pu setxy :xcormännchen :ycormännchen pd
+end
+
+to schusslinkspolizei
+ pu
+ fd 51
+ lt 90
+ fd 32
+ pd
+ repeat 50 [kugel wait 2 kugellöschen pu fd 10 pd make "trefferpoli xcor if :xcormännchen>:trefferpoli [pu home pd beenden stop]]
+ pu
+ bk 532
+ lt 90
+ fd 51
+ rt 180
+ pd
+end
+
+to start
+ cs
+ make "boomaus 0
+ make "level2 0
+ make "xcormännchen -400
+ make "ycormännchen 201
+ make "munition 1
+ make "kiaus 0
+ make "boom 0
+ make "buttondelete 1
+ buttoncreate "main "Zurück "Zurück 300 -265 150 30 [Hauptmenü stop]
+ buttondelete "Start
+ buttondelete "Steuerung
+ buttondelete "Tutorial
+ buttondelete "Credits
+ buttondelete "Beenden
+ setscreencolor [150 150 150]
+ make "runter 0
+ make "b 1000
+ hideturtle
+ pu 
+ setxy -250 -275
+ pd
+ rt 90
+ label [Geladen:]
+ pu setxy -145 -275 pd label [Ja] pu setxy :xcormännchen :ycormännchen pd
+ lt 90
+ bg
+ pu
+ setxy -400 201
+ pd
+ männchen3
+ männchenlau
+end
+
+to steuerung
+ cs
+ make "buttondelete 1
+ buttoncreate "main "Zurück "Zurück -400 0 150 30 [Hauptmenü stop]
+ buttondelete "Start
+ buttondelete "Steuerung
+ buttondelete "Tutorial
+ buttondelete "Credits
+ buttondelete "Beenden
+ setpencolor [100 0 0]
+ rt 90
+ pu
+ setxy -350 300
+ pd
+ label [W] 
+ pu
+ setxy -350 275
+ pd
+ label [A]
+ pu
+ setxy -350 250
+ pd
+ label [S]
+ pu
+ setxy -350 225
+ pd
+ label [D]
+ pu
+ setxy -350 200
+ pd
+ label [LEERTASTE]
+ pu
+ setxy -350 175
+ pd
+ label [ESCAPE]
+ pu
+ setxy -350 150
+ pd
+ label [R]
+ pu
+ setxy -100 300
+ pd
+ label [Um nach oben zu springen]
+ pu
+ setxy -100 275
+ pd 
+ label [Um nach Links zu laufen]
+ pu
+ setxy -100 250
+ pd 
+ label [Um nach unten zu klettern]
+ pu
+ setxy -100 225
+ pd 
+ label [Um nach Rechts zu laufen]
+ pu
+ setxy -100 200
+ pd 
+ label [Um in die Blickrichtung zu schießen]
+ pu
+ setxy -100 175
+ pd 
+ label [Um in das Hauptmenü zurück zukehren]
+ pu
+ setxy -100 150
+ pd 
+ label [Um nachzuladen]
+ lt 90
+ pu
+ setxy -150 300
+ pd 
+ back 175
+end
+
+to Tutorial
+ cs
+ make "kiaus 0
+ make "level2 0
+ make "xcormännchen -400
+ make "ycormännchen 201
+ make "buttondelete 1
+ buttoncreate "main "Zurück "Zurück -400 -150 150 30 [beenden stop]
+ buttondelete "Start
+ buttondelete "Steuerung
+ buttondelete "Tutorial
+ buttondelete "Credits
+ buttondelete "Beenden
+ setscreencolor [150 150 150]
+ make "runter 0
+ make "b 1000
+ hideturtle
+ pu 
+ setxy -250 -275
+ pd
+ rt 90
+ label [Geladen:]
+ pu setxy -145 -275 pd label [Ja] pu setxy :xcormännchen :ycormännchen pd
+ lt 90
+ pu
+ setxy -400 201
+ pd
+ bgtutorial
+ pu setxy -160 -120 pd rt 90 label [Drücke "A" und "D", um zu laufen] lt 90 pu setxy -400 201 pd
+ männchen3
+ männchenlaututorial
+end
+
+Make "animationsmenue 0
+Make "b 1000
+Make "boom 0
+Make "boomaus 1
+Make "buttondelete 1
+Make "kiaus 1
+Make "level2 3
+Make "munition 0
+Make "runter 360
+Make "schussrichtung 1
+Make "startup [make "buttondelete 0 hauptmenü]
+Make "treffermännchen -279.999999
+Make "treffermännchen1 342
+Make "treffermännchen2 -48.000001
+Make "trefferpoli -292
+Make "xcorboom 342
+Make "xcormännchen -159.999999
+Make "ycorboom -48.000001
+Make "ycormännchen -99.000001
