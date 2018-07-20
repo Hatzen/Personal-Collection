@@ -1,0 +1,10 @@
+Die Implementierung wurde simple gehalten. Ohne Klassen oder ähnlichem. Daher ist der einzig relevante Code 
+in der "main.cpp" zu finden.  
+Das Programm erfüllt alle Anforderungen der Aufgabe 12:
+- Es werden zufällige Daten generiert
+- Diese werden mittels MergeSort sortiert
+- Die Anzahl Threads ist limitiert auf ca. (nicht exakt) das doppelte der Kerne.
+   Falls mehr gestartet werden, arbeiten diese auf dem Mainthread(siehe Annahme im Code).
+- Es wird nur ein neuer Thread gestartet wenn die Teilliste mehr als 5 Elemente enthält.
+- Via Join wird sichergestellt das die Liste erst verschmolzen wird, wenn die rekursiv erzeugten ("Unter-")Threads
+   beendet wurden.
